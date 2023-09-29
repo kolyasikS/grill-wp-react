@@ -1,0 +1,610 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/shared/buttons/ClassicButton/index.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.index-module_button--yM2VF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 100%;
+  position: relative;
+  height: -moz-fit-content;
+  height: fit-content;
+  transition: all 0.2s;
+}
+.index-module_button--yM2VF p {
+  position: relative;
+  top: 2px;
+}
+
+.index-module_discount--A5qB5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  right: 4px;
+  top: -16px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/shared/buttons/SliderDots/styles/sliderDot.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.sliderDot-module_dot--ftSvT {
+  width: 8px;
+  height: 8px;
+  background: #181B3F;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.sliderDot-module_active--awyXp {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+
+.sliderDot-module_white--RZtEK {
+  background: #fff;
+}
+
+.sliderDot-module_blue--YJfJs {
+  background: #181B3F;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/introduction/styles/introduction.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.introduction-module_section--KR0HF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 1000px;
+  height: 100vh;
+  position: relative;
+}
+.introduction-module_section--KR0HF::before {
+  content: "";
+  background-image: url(images/bg.9ac4dca3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 1000px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.introduction-module_content__wrapper--giN2C {
+  position: relative;
+  top: -150px;
+}
+
+.introduction-module_content__subtitle--Dp7Pt {
+  position: relative;
+}
+.introduction-module_content__subtitle--Dp7Pt > p {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150.5%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.introduction-module_content--VEJSS h1 {
+  color: #fff;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.introduction-module_startingAtBtn--b2Tdu {
+  position: absolute;
+  left: 260px;
+  bottom: 2px;
+}
+
+.introduction-module_sliderDots_wrapper--WRsR6 {
+  position: absolute;
+  bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 16px;
+  width: 100%;
+  left: 0;
+}
+
+.introduction-module_sliderDots--SvRlp {
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .introduction-module_section--KR0HF::before {
+    background-position: center 100px;
+  }
+  .introduction-module_sliderDots_wrapper--WRsR6 {
+    position: absolute;
+    bottom: 95px;
+  }
+}
+@media screen and ((min-width: 600px) and (max-width: 900px)) {
+  .introduction-module_section--KR0HF {
+    min-height: auto;
+  }
+  .introduction-module_section--KR0HF::before {
+    background: url(images/bg-xs.248b5a2d.webp);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+}
+@media screen and (max-width: 900px) {
+  .introduction-module_content--VEJSS h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+  }
+  .introduction-module_content__subtitle--Dp7Pt > p {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .introduction-module_startingAtBtn--b2Tdu {
+    position: relative;
+    left: 0;
+    margin-bottom: 20px;
+  }
+  .introduction-module_content__wrapper--giN2C {
+    top: -180px;
+  }
+  .introduction-module_sliderDots_wrapper--WRsR6 {
+    position: absolute;
+    bottom: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .introduction-module_section--KR0HF {
+    min-height: auto;
+    height: 640px;
+  }
+  .introduction-module_section--KR0HF::before {
+    min-height: auto;
+    background: url(images/bg-1850.83835b66.webp);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+  .introduction-module_content--VEJSS h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .introduction-module_content__subtitle--Dp7Pt > p {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .introduction-module_content__wrapper--giN2C {
+    top: -50px;
+  }
+  .introduction-module_section--KR0HF {
+    margin-bottom: 100px;
+  }
+  .introduction-module_section--KR0HF::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: -100px;
+    background: linear-gradient(0deg, #181B3F 50%, rgba(24, 27, 64, 0.062745098) 100%);
+  }
+  .introduction-module_scheduleBtn--rpzBv {
+    position: absolute;
+    bottom: -115%;
+    z-index: 1;
+    width: 100%;
+  }
+  .introduction-module_sliderDots_wrapper--WRsR6 {
+    position: absolute;
+    bottom: -45px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .introduction-module_scheduleBtn--rpzBv {
+    padding: 16px 24px;
+    width: 100%;
+  }
+  .introduction-module_scheduleBtn--rpzBv p {
+    font-size: 16px;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/introduction/styles/infoPanel.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.infoPanel-module_infoPanel--MxpLL {
+  position: absolute;
+  border-radius: 16px;
+  background: #fff;
+  padding: 30px 30px 15px;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: flex-start;
+  bottom: -100px;
+}
+
+.infoPanel-module_infoPanelItem--mBBjA {
+  display: flex;
+  gap: 40px;
+  padding: 15px 40px;
+}
+.infoPanel-module_infoPanelItem--mBBjA h3 {
+  color: #181B3F;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.infoPanel-module_infoPanelItem--mBBjA p {
+  color: #181B3F;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.infoPanel-module_infoPanelItem--mBBjA:nth-child(1) p, .infoPanel-module_infoPanelItem--mBBjA:nth-child(5) p {
+  font-size: 16px;
+}
+.infoPanel-module_infoPanelItem--mBBjA:nth-child(3) p {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+  .infoPanel-module_infoPanel--MxpLL {
+    padding: 20px;
+  }
+  .infoPanel-module_infoPanelItem--mBBjA {
+    padding: 5px 5px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .infoPanel-module_infoPanel--MxpLL {
+    bottom: -400px;
+    z-index: 1;
+    align-items: center;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .infoPanel-module_infoPanel--MxpLL {
+    bottom: -550px;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/shared/lists/callUsList/callUsList.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.callUsList-module_icon_wrapper--zQx3R {
+  cursor: pointer;
+  position: relative;
+}
+.callUsList-module_icon_wrapper--zQx3R::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 50%;
+  height: calc(100% + 20px);
+  width: calc(100% + 20px);
+  background: transparent;
+  z-index: -1;
+  transition: background-color 0.2s;
+}
+.callUsList-module_icon_wrapper--zQx3R:hover::before {
+  background: #bee0eb;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/shared/lists/socnetList/socnetList.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.socnetList-module_socnet_item--rteJH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.socnetList-module_socnet_item--rteJH svg {
+  width: 100%;
+  height: 100%;
+}
+
+.socnetList-module_twitterBg--LrcMZ {
+  background: #3CF;
+}
+.socnetList-module_twitterBg--LrcMZ:hover {
+  background: #0a0e2b;
+}
+
+.socnetList-module_instagramBg--RVd6v {
+  background: linear-gradient(315deg, #FBE18A 0.96%, #FCBB45 21.96%, #F75274 38.96%, #D53692 52.96%, #8F39CE 74.96%, #5B4FE9 100.96%);
+}
+.socnetList-module_instagramBg--RVd6v:hover {
+  background: linear-gradient(0deg, #0a0e2b 100%, #0a0e2b 100%);
+}
+
+.socnetList-module_facebookBg--WOiei {
+  background: #337FFF;
+}
+.socnetList-module_facebookBg--WOiei:hover {
+  background: #0a0e2b;
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./src/assets/fonts/stylesheet.css ***!
+  \***************************************************************************************************************/
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Regular.19055ba0.eot);
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url(fonts/Gilroy-Regular.19055ba0.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Regular.f6c9931f.woff2) format('woff2'),
+        url(fonts/Gilroy-Regular.ebe86c03.woff) format('woff'),
+        url(fonts/Gilroy-Regular.fa652e76.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-ExtraboldItalic.d4bac2be.eot);
+    src: local('Gilroy Extrabold Italic'), local('Gilroy-ExtraboldItalic'),
+        url(fonts/Gilroy-ExtraboldItalic.d4bac2be.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-ExtraboldItalic.cb765d86.woff2) format('woff2'),
+        url(fonts/Gilroy-ExtraboldItalic.a15d926a.woff) format('woff'),
+        url(fonts/Gilroy-ExtraboldItalic.465aa5d0.ttf) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Bold.aa68c169.eot);
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url(fonts/Gilroy-Bold.aa68c169.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Bold.ef7c40ff.woff2) format('woff2'),
+        url(fonts/Gilroy-Bold.0607a1bc.woff) format('woff'),
+        url(fonts/Gilroy-Bold.901a60fc.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Black.15c6a98f.eot);
+    src: local('Gilroy Black'), local('Gilroy-Black'),
+        url(fonts/Gilroy-Black.15c6a98f.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Black.ae06da6f.woff2) format('woff2'),
+        url(fonts/Gilroy-Black.a9df216d.woff) format('woff'),
+        url(fonts/Gilroy-Black.4628979a.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Light.f498309f.eot);
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+        url(fonts/Gilroy-Light.f498309f.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Light.c2e7a6dc.woff2) format('woff2'),
+        url(fonts/Gilroy-Light.368f09f5.woff) format('woff'),
+        url(fonts/Gilroy-Light.0ac7c2f9.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Semibold.54bc2f81.eot);
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url(fonts/Gilroy-Semibold.54bc2f81.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Semibold.7726b19d.woff2) format('woff2'),
+        url(fonts/Gilroy-Semibold.5b042906.woff) format('woff'),
+        url(fonts/Gilroy-Semibold.41fa36c3.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Medium.2fea647f.eot);
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url(fonts/Gilroy-Medium.2fea647f.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Medium.acd4e613.woff2) format('woff2'),
+        url(fonts/Gilroy-Medium.5329bc50.woff) format('woff'),
+        url(fonts/Gilroy-Medium.1c23f810.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-MediumItalic.2d3fcc2b.eot);
+    src: local('Gilroy Medium Italic'), local('Gilroy-MediumItalic'),
+        url(fonts/Gilroy-MediumItalic.2d3fcc2b.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-MediumItalic.56b6f6d9.woff2) format('woff2'),
+        url(fonts/Gilroy-MediumItalic.e50c6ab1.woff) format('woff'),
+        url(fonts/Gilroy-MediumItalic.89dade8d.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-BlackItalic.0c22099e.eot);
+    src: local('Gilroy Black Italic'), local('Gilroy-BlackItalic'),
+        url(fonts/Gilroy-BlackItalic.0c22099e.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-BlackItalic.a115605b.woff2) format('woff2'),
+        url(fonts/Gilroy-BlackItalic.c04a0aea.woff) format('woff'),
+        url(fonts/Gilroy-BlackItalic.9d038b5d.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-UltraLight.69d95728.eot);
+    src: local('Gilroy UltraLight'), local('Gilroy-UltraLight'),
+        url(fonts/Gilroy-UltraLight.69d95728.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-UltraLight.378f4351.woff2) format('woff2'),
+        url(fonts/Gilroy-UltraLight.9169fa71.woff) format('woff'),
+        url(fonts/Gilroy-UltraLight.6c356bf4.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-RegularItalic.3b7071f6.eot);
+    src: local('Gilroy Regular Italic'), local('Gilroy-RegularItalic'),
+        url(fonts/Gilroy-RegularItalic.3b7071f6.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-RegularItalic.5c23dc85.woff2) format('woff2'),
+        url(fonts/Gilroy-RegularItalic.1a8de217.woff) format('woff'),
+        url(fonts/Gilroy-RegularItalic.5f3ed3d8.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-SemiboldItalic.df9d884f.eot);
+    src: local('Gilroy Semibold Italic'), local('Gilroy-SemiboldItalic'),
+        url(fonts/Gilroy-SemiboldItalic.df9d884f.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-SemiboldItalic.f573f3d8.woff2) format('woff2'),
+        url(fonts/Gilroy-SemiboldItalic.b7e83a7d.woff) format('woff'),
+        url(fonts/Gilroy-SemiboldItalic.4d55ee19.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-HeavyItalic.df7d31c8.eot);
+    src: local('Gilroy Heavy Italic'), local('Gilroy-HeavyItalic'),
+        url(fonts/Gilroy-HeavyItalic.df7d31c8.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-HeavyItalic.1260ebe3.woff2) format('woff2'),
+        url(fonts/Gilroy-HeavyItalic.25ba04db.woff) format('woff'),
+        url(fonts/Gilroy-HeavyItalic.4e271337.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Extrabold.35fe3e3e.eot);
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+        url(fonts/Gilroy-Extrabold.35fe3e3e.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Extrabold.5c5942d3.woff2) format('woff2'),
+        url(fonts/Gilroy-Extrabold.f39ff81c.woff) format('woff'),
+        url(fonts/Gilroy-Extrabold.92e435f7.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-BoldItalic.59f5bb14.eot);
+    src: local('Gilroy Bold Italic'), local('Gilroy-BoldItalic'),
+        url(fonts/Gilroy-BoldItalic.59f5bb14.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-BoldItalic.990e3c5e.woff2) format('woff2'),
+        url(fonts/Gilroy-BoldItalic.76c9191d.woff) format('woff'),
+        url(fonts/Gilroy-BoldItalic.244d410b.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-UltraLightItalic.a6fc8679.eot);
+    src: local('Gilroy UltraLight Italic'), local('Gilroy-UltraLightItalic'),
+        url(fonts/Gilroy-UltraLightItalic.a6fc8679.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-UltraLightItalic.9e044996.woff2) format('woff2'),
+        url(fonts/Gilroy-UltraLightItalic.3c8027c9.woff) format('woff'),
+        url(fonts/Gilroy-UltraLightItalic.68a9a27f.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-LightItalic.8c6863c1.eot);
+    src: local('Gilroy Light Italic'), local('Gilroy-LightItalic'),
+        url(fonts/Gilroy-LightItalic.8c6863c1.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-LightItalic.8dde5723.woff2) format('woff2'),
+        url(fonts/Gilroy-LightItalic.d899841d.woff) format('woff'),
+        url(fonts/Gilroy-LightItalic.7b680060.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Heavy.d3e25fef.eot);
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),
+        url(fonts/Gilroy-Heavy.d3e25fef.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Heavy.19b3f6fe.woff2) format('woff2'),
+        url(fonts/Gilroy-Heavy.406f336a.woff) format('woff'),
+        url(fonts/Gilroy-Heavy.bf729a99.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Thin.a479c0c1.eot);
+    src: local('Gilroy Thin'), local('Gilroy-Thin'),
+        url(fonts/Gilroy-Thin.a479c0c1.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Thin.8d8f3d8a.woff2) format('woff2'),
+        url(fonts/Gilroy-Thin.4b118de0.woff) format('woff'),
+        url(fonts/Gilroy-Thin.fc813b75.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-ThinItalic.cea6b0a2.eot);
+    src: local('Gilroy Thin Italic'), local('Gilroy-ThinItalic'),
+        url(fonts/Gilroy-ThinItalic.cea6b0a2.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-ThinItalic.aa21bf23.woff2) format('woff2'),
+        url(fonts/Gilroy-ThinItalic.214652f4.woff) format('woff'),
+        url(fonts/Gilroy-ThinItalic.aa74839c.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/assets/styles/global.css ***!
+  \**********************************************************************************************************************************************************************************/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Gilroy', sans-serif;
+}
+
+* {
+    /*outline: 1px solid red;*/
+}
+
+/*# sourceMappingURL=index.css.map*/

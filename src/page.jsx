@@ -1,7 +1,9 @@
+import Introduction from "src/pages/home/introduction/Introduction";
+
 const Page = () => {
     return (
         <div>
-            <h1>Hello World</h1>
+            <Introduction/>
         </div>
     );
 };

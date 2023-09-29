@@ -1,0 +1,25 @@
+.icons_stack {
+    svg {
+
+    }
+}
+
+.icon_wrapper {
+    cursor: pointer;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        border-radius: 50%;
+        height: calc(100% + 20px);
+        width: calc(100% + 20px);
+        background: transparent;
+        z-index: -1;
+        transition: background-color 0.2s;
+    }
+    &:hover::before {
+        background: #bee0eb;
+    }
+}

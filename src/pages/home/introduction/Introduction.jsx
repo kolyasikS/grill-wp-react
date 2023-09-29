@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import Header from "@widgets/Header/Header";
-import styles from './styles/introduction.module.scss';
 import {ClassicButton, LightRedCBtn, SliderDots} from "@shared/buttons/api";
+import styles from './styles/introduction.module.scss';
 import {Box, Container, useMediaQuery} from "@mui/material";
 import InfoPanel from "./InfoPanel";
 const Introduction = () => {

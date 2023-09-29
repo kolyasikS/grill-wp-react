@@ -1,0 +1,21 @@
+.dot {
+    width: 8px;
+    height: 8px;
+    background: #181B3F;
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
+.active {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+}
+
+.white {
+    background: #fff;
+}
+
+.blue {
+    background: #181B3F;
+}

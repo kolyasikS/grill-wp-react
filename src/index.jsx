@@ -1,7 +1,7 @@
 import {StrictMode} from "react";
 
 const { createRoot } = wp.element;
-import Page from "src/page.jsx";
+import Page from "src/page";
 import '@assets/styles/global.css';
 
 
