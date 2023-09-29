@@ -1,1 +1,0 @@
-{"version":3,"file":"index.css","mappings":";;;AAAA;EACI;EACA;EACA;AACJ,C","sources":["webpack://work/./src/main.scss"],"sourcesContent":["h1 {\n    color: red;\n    text-transform: capitalize;\n    font-size: 60px;\n}"],"names":[],"sourceRoot":""}

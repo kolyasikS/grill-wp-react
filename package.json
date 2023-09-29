@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wordpress/scripts": "^26.13.0"
+    "@wordpress/scripts": "^26.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

@@ -1,0 +1,31 @@
+@mixin flexCenter ($isColumn: false) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @if $isColumn {
+        flex-direction: column;
+    }
+}
+
+@mixin sectionTitle($clr: #fff, $fs: 64px, $fw: 800) {
+    color: $clr;
+    font-size: $fs;
+    font-style: normal;
+    font-weight: $fw;
+    line-height: 110%;
+}
+
+@mixin shadowBg($opacity, $height: 100%, $left: 0) {
+    &::before {
+        content: '';
+        top: 0;
+        left: $left;
+        position: absolute;
+        background: #000;
+        opacity: $opacity;
+        display: block;
+        width: 100%;
+        height: $height;
+        z-index: 0;
+    }
+}

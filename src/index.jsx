@@ -1,6 +1,13 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import Page from "./page";
-import './main.scss';
+import {StrictMode} from "react";
 
-ReactDom.render(<Page/>, document.querySelector('#app'));
+const { createRoot } = wp.element;
+import Page from "src/page.jsx";
+import '@assets/styles/global.css';
+
+
+const root = createRoot(document.getElementById('root'));
+root.render(
+    <StrictMode>
+        <Page />
+    </StrictMode>
+);
