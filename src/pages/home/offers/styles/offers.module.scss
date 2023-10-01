@@ -1,0 +1,60 @@
+@import "@assets/styles/mixins";
+
+.section {
+    padding: 140px 0;
+    background: url("@assets/images/homePage/offers-bg.webp") no-repeat center;
+    background-size: cover;
+    position: relative;
+    @include shadowBg(0.5);
+}
+
+.section__inner {
+    @include flexCenter(true)
+}
+
+.section__title {
+    @include sectionTitle(#fff, 56px);
+    z-index: 1;
+    text-align: center;
+
+    margin-bottom: 32px;
+}
+
+.section__subtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    z-index: 1;
+}
+
+.section__caption {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .section {
+        padding: 64px 0;
+    }
+    .section__title {
+        font-size: 36px;
+    }
+
+    .section__subtitle {
+        font-size: 24px;
+    }
+
+    .section__inner {
+        button {
+            width: 100%;
+        }
+    }
+}

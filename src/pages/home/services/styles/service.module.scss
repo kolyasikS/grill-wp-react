@@ -1,0 +1,36 @@
+.service {
+
+}
+
+.service__image {
+    margin: 0 auto 16px;
+}
+
+.service__title {
+    color: #BC1922;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 10px;
+}
+
+.service__purpose {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+@media screen and (max-width: 600px) {
+    .service__title {
+        text-align: left;
+    }
+    .service__purpose {
+        text-align: left;
+    }
+}
+

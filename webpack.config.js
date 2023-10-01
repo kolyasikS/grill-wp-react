@@ -33,6 +33,7 @@ module.exports = {
         alias: {
             '@assets': path.resolve(__dirname, 'src/assets'),
             '@shared': path.resolve(__dirname, 'src/shared'),
+            '@widgets': path.resolve(__dirname, 'src/widgets'),
             'src': path.resolve(__dirname, 'src')
         }
     }

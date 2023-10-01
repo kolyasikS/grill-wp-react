@@ -12,6 +12,9 @@
             true
         );
     });
+
+    add_filter( 'show_admin_bar' , 'my_function_admin_bar');
+    function my_function_admin_bar(){ return false; }
 /*  function debug_to_console($data) {
         $output = $data;
         if (is_array($output))

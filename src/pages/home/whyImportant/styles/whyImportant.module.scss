@@ -1,0 +1,118 @@
+@import "@assets/styles/mixins";
+
+.section {
+    padding: 200px 0 150px 0;
+    position: relative;
+    min-height: 2400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        background: #0C102F;
+        width: 100%;
+        top: 0;
+        height: 100%;
+        z-index: -2;
+    }
+    &::before {
+        background-image: url("@assets/images/homePage/grill-bg.webp");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: 100%;
+        z-index: -1;
+    }
+}
+
+.section__title {
+    color: #fff;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    span {
+        color: #EE353F;
+    }
+    margin-bottom: 150px;
+}
+
+.section__top {
+}
+.section__bottom {
+    gap: 30px;
+    position: relative;
+
+}
+.section__bottomLink {
+    max-width: 300px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    text-decoration-line: underline;
+    line-height: 130%;
+    text-underline-offset: 4px;
+    transition: color 0.2s;
+    &:hover {
+        color: #40b7f1;
+    }
+}
+
+@media screen and (max-width: 1536px) {
+    .section {
+        min-height: 2200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .section {
+        min-height: 2450px;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .section {
+        min-height: 2500px;
+        padding-top: 500px;
+    }
+    .section__title {
+        text-align: left;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        min-height: 2500px;
+        &::before {
+            height: 92%;
+        }
+        &::after {
+            height: 90%;
+        }
+        background: #06082a;
+        z-index: 0;
+
+        button {
+            width: 90%;
+        }
+    }
+    .section__title {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .section {
+        min-height: 2400px;
+    }
+}

@@ -1,0 +1,52 @@
+@import "@assets/styles/mixins";
+
+.form {
+    @include flexCenter(true);
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 64px 80px;
+    &::before {
+        content: '';
+        background: #fff;
+        position: absolute;
+        width: calc(100% / 12 * 7);
+        right: 0;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+    }
+}
+
+.form_title {
+    color: #BC1922;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 8px;
+    z-index: 1;
+    width: 100%;
+    text-align: left;
+}
+
+.form_subtitle {
+    color: #181B3F;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    z-index: 1;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.form_name_icon {
+    position: absolute;
+    bottom: 15px;
+    left: 7px;
+}
+
+.form_name_icon__email {
+    bottom: 10px;
+    left: 3px;
+}

@@ -1,0 +1,30 @@
+.review {
+    background: #fff;
+    border-radius: 32px 32px 32px 0;
+    position: relative;
+}
+
+.review__name {
+    color: #181B3F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 5px;
+}
+
+.review__image {
+}
+.review__quote {
+    color: #747474;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin-top: 20px;
+}
+.review__triangle {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}

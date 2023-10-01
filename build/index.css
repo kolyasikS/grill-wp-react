@@ -1,7 +1,7 @@
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/shared/buttons/ClassicButton/index.module.scss ***!
   \***************************************************************************************************************************************************************************************************************************************************************************/
-.index-module_button--yM2VF {
+.index-module--yM2VF {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,12 +11,12 @@
   height: fit-content;
   transition: all 0.2s;
 }
-.index-module_button--yM2VF p {
+.index-module--yM2VF p {
   position: relative;
   top: 2px;
 }
 
-.index-module_discount--A5qB5 {
+.index-module--A5qB5 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@
 /*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/shared/buttons/SliderDots/styles/sliderDot.module.scss ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************/
-.sliderDot-module_dot--ftSvT {
+.sliderDot-module--ftSvT {
   width: 8px;
   height: 8px;
   background: #181B3F;
@@ -40,23 +40,23 @@
   border-radius: 50%;
 }
 
-.sliderDot-module_active--awyXp {
+.sliderDot-module--awyXp {
   width: 12px;
   height: 12px;
   opacity: 1;
 }
 
-.sliderDot-module_white--RZtEK {
+.sliderDot-module--RZtEK {
   background: #fff;
 }
 
-.sliderDot-module_blue--YJfJs {
+.sliderDot-module--YJfJs {
   background: #181B3F;
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/introduction/styles/introduction.module.scss ***!
   \************************************************************************************************************************************************************************************************************************************************************************************/
-.introduction-module_section--KR0HF {
+.introduction-module--KR0HF {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@
   height: 100vh;
   position: relative;
 }
-.introduction-module_section--KR0HF::before {
+.introduction-module--KR0HF::before {
   content: "";
   background-image: url(images/bg.9ac4dca3.webp);
   background-position: center;
@@ -80,15 +80,15 @@
   z-index: -1;
 }
 
-.introduction-module_content__wrapper--giN2C {
+.introduction-module--giN2C {
   position: relative;
   top: -150px;
 }
 
-.introduction-module_content__subtitle--Dp7Pt {
+.introduction-module--Dp7Pt {
   position: relative;
 }
-.introduction-module_content__subtitle--Dp7Pt > p {
+.introduction-module--Dp7Pt > p {
   color: #fff;
   font-size: 24px;
   font-style: normal;
@@ -98,7 +98,7 @@
   margin-bottom: 30px;
 }
 
-.introduction-module_content--VEJSS h1 {
+.introduction-module--VEJSS h1 {
   color: #fff;
   font-size: 72px;
   font-style: normal;
@@ -106,13 +106,13 @@
   line-height: 120%;
 }
 
-.introduction-module_startingAtBtn--b2Tdu {
+.introduction-module--b2Tdu {
   position: absolute;
   left: 260px;
   bottom: 2px;
 }
 
-.introduction-module_sliderDots_wrapper--WRsR6 {
+.introduction-module--WRsR6 {
   position: absolute;
   bottom: 150px;
   display: flex;
@@ -123,24 +123,24 @@
   left: 0;
 }
 
-.introduction-module_sliderDots--SvRlp {
+.introduction-module--SvRlp {
   position: relative;
 }
 
 @media screen and (max-width: 1200px) {
-  .introduction-module_section--KR0HF::before {
+  .introduction-module--KR0HF::before {
     background-position: center 100px;
   }
-  .introduction-module_sliderDots_wrapper--WRsR6 {
+  .introduction-module--WRsR6 {
     position: absolute;
     bottom: 95px;
   }
 }
 @media screen and ((min-width: 600px) and (max-width: 900px)) {
-  .introduction-module_section--KR0HF {
+  .introduction-module--KR0HF {
     min-height: auto;
   }
-  .introduction-module_section--KR0HF::before {
+  .introduction-module--KR0HF::before {
     background: url(images/bg-xs.248b5a2d.webp);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -148,54 +148,54 @@
   }
 }
 @media screen and (max-width: 900px) {
-  .introduction-module_content--VEJSS h1 {
+  .introduction-module--VEJSS h1 {
     font-size: 56px;
     margin-bottom: 10px;
   }
-  .introduction-module_content__subtitle--Dp7Pt > p {
+  .introduction-module--Dp7Pt > p {
     font-size: 20px;
     margin-bottom: 5px;
   }
-  .introduction-module_startingAtBtn--b2Tdu {
+  .introduction-module--b2Tdu {
     position: relative;
     left: 0;
     margin-bottom: 20px;
   }
-  .introduction-module_content__wrapper--giN2C {
+  .introduction-module--giN2C {
     top: -180px;
   }
-  .introduction-module_sliderDots_wrapper--WRsR6 {
+  .introduction-module--WRsR6 {
     position: absolute;
     bottom: 100px;
   }
 }
 @media screen and (max-width: 600px) {
-  .introduction-module_section--KR0HF {
+  .introduction-module--KR0HF {
     min-height: auto;
     height: 640px;
   }
-  .introduction-module_section--KR0HF::before {
+  .introduction-module--KR0HF::before {
     min-height: auto;
     background: url(images/bg-1850.83835b66.webp);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center bottom;
   }
-  .introduction-module_content--VEJSS h1 {
+  .introduction-module--VEJSS h1 {
     font-size: 32px;
     margin-bottom: 10px;
   }
-  .introduction-module_content__subtitle--Dp7Pt > p {
+  .introduction-module--Dp7Pt > p {
     font-size: 20px;
     margin-bottom: 16px;
   }
-  .introduction-module_content__wrapper--giN2C {
+  .introduction-module--giN2C {
     top: -50px;
   }
-  .introduction-module_section--KR0HF {
+  .introduction-module--KR0HF {
     margin-bottom: 100px;
   }
-  .introduction-module_section--KR0HF::after {
+  .introduction-module--KR0HF::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -203,30 +203,30 @@
     bottom: -100px;
     background: linear-gradient(0deg, #181B3F 50%, rgba(24, 27, 64, 0.062745098) 100%);
   }
-  .introduction-module_scheduleBtn--rpzBv {
+  .introduction-module--rpzBv {
     position: absolute;
     bottom: -115%;
     z-index: 1;
     width: 100%;
   }
-  .introduction-module_sliderDots_wrapper--WRsR6 {
+  .introduction-module--WRsR6 {
     position: absolute;
     bottom: -45px;
   }
 }
 @media screen and (max-width: 400px) {
-  .introduction-module_scheduleBtn--rpzBv {
+  .introduction-module--rpzBv {
     padding: 16px 24px;
     width: 100%;
   }
-  .introduction-module_scheduleBtn--rpzBv p {
+  .introduction-module--rpzBv p {
     font-size: 16px;
   }
 }
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/introduction/styles/infoPanel.module.scss ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
-.infoPanel-module_infoPanel--MxpLL {
+.infoPanel-module--MxpLL {
   position: absolute;
   border-radius: 16px;
   background: #fff;
@@ -239,12 +239,12 @@
   bottom: -100px;
 }
 
-.infoPanel-module_infoPanelItem--mBBjA {
+.infoPanel-module--mBBjA {
   display: flex;
   gap: 40px;
   padding: 15px 40px;
 }
-.infoPanel-module_infoPanelItem--mBBjA h3 {
+.infoPanel-module--mBBjA h3 {
   color: #181B3F;
   font-size: 24px;
   font-style: normal;
@@ -253,29 +253,29 @@
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-.infoPanel-module_infoPanelItem--mBBjA p {
+.infoPanel-module--mBBjA p {
   color: #181B3F;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
 }
-.infoPanel-module_infoPanelItem--mBBjA:nth-child(1) p, .infoPanel-module_infoPanelItem--mBBjA:nth-child(5) p {
+.infoPanel-module--mBBjA:nth-child(1) p, .infoPanel-module--mBBjA:nth-child(5) p {
   font-size: 16px;
 }
-.infoPanel-module_infoPanelItem--mBBjA:nth-child(3) p {
+.infoPanel-module--mBBjA:nth-child(3) p {
   font-size: 24px;
 }
 
 @media screen and (max-width: 1200px) {
-  .infoPanel-module_infoPanel--MxpLL {
+  .infoPanel-module--MxpLL {
     padding: 20px;
   }
-  .infoPanel-module_infoPanelItem--mBBjA {
+  .infoPanel-module--mBBjA {
     padding: 5px 5px;
   }
 }
 @media screen and (max-width: 900px) {
-  .infoPanel-module_infoPanel--MxpLL {
+  .infoPanel-module--MxpLL {
     bottom: -400px;
     z-index: 1;
     align-items: center;
@@ -283,7 +283,7 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .infoPanel-module_infoPanel--MxpLL {
+  .infoPanel-module--MxpLL {
     bottom: -550px;
     z-index: 1;
     padding-left: 0;
@@ -293,11 +293,11 @@
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/shared/lists/callUsList/callUsList.module.scss ***!
   \***************************************************************************************************************************************************************************************************************************************************************************/
-.callUsList-module_icon_wrapper--zQx3R {
+.callUsList-module--zQx3R {
   cursor: pointer;
   position: relative;
 }
-.callUsList-module_icon_wrapper--zQx3R::before {
+.callUsList-module--zQx3R::before {
   content: "";
   position: absolute;
   top: -10px;
@@ -309,13 +309,13 @@
   z-index: -1;
   transition: background-color 0.2s;
 }
-.callUsList-module_icon_wrapper--zQx3R:hover::before {
+.callUsList-module--zQx3R:hover::before {
   background: #bee0eb;
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/shared/lists/socnetList/socnetList.module.scss ***!
   \***************************************************************************************************************************************************************************************************************************************************************************/
-.socnetList-module_socnet_item--rteJH {
+.socnetList-module--rteJH {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,31 +323,2456 @@
   cursor: pointer;
   transition: all 0.2s;
 }
-.socnetList-module_socnet_item--rteJH svg {
+.socnetList-module--rteJH svg {
   width: 100%;
   height: 100%;
 }
 
-.socnetList-module_twitterBg--LrcMZ {
+.socnetList-module--LrcMZ {
   background: #3CF;
 }
-.socnetList-module_twitterBg--LrcMZ:hover {
+.socnetList-module--LrcMZ:hover {
   background: #0a0e2b;
 }
 
-.socnetList-module_instagramBg--RVd6v {
+.socnetList-module--RVd6v {
   background: linear-gradient(315deg, #FBE18A 0.96%, #FCBB45 21.96%, #F75274 38.96%, #D53692 52.96%, #8F39CE 74.96%, #5B4FE9 100.96%);
 }
-.socnetList-module_instagramBg--RVd6v:hover {
+.socnetList-module--RVd6v:hover {
   background: linear-gradient(0deg, #0a0e2b 100%, #0a0e2b 100%);
 }
 
-.socnetList-module_facebookBg--WOiei {
+.socnetList-module--WOiei {
   background: #337FFF;
 }
-.socnetList-module_facebookBg--WOiei:hover {
+.socnetList-module--WOiei:hover {
   background: #0a0e2b;
 }
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/whyImportant/styles/whyImportant.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.whyImportant-module--KWOzj {
+  padding: 200px 0 150px 0;
+  position: relative;
+  min-height: 2400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.whyImportant-module--KWOzj::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #0C102F;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  z-index: -2;
+}
+.whyImportant-module--KWOzj::before {
+  background-image: url(images/grill-bg.74b74076.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.whyImportant-module--UNHI_ {
+  color: #fff;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  margin-bottom: 150px;
+}
+.whyImportant-module--UNHI_ span {
+  color: #EE353F;
+}
+
+.whyImportant-module--MrMf0 {
+  gap: 30px;
+  position: relative;
+}
+
+.whyImportant-module--XxMse {
+  max-width: 300px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  text-decoration-line: underline;
+  line-height: 130%;
+  text-underline-offset: 4px;
+  transition: color 0.2s;
+}
+.whyImportant-module--XxMse:hover {
+  color: #40b7f1;
+}
+
+@media screen and (max-width: 1536px) {
+  .whyImportant-module--KWOzj {
+    min-height: 2200px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .whyImportant-module--KWOzj {
+    min-height: 2450px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .whyImportant-module--KWOzj {
+    min-height: 2500px;
+    padding-top: 500px;
+  }
+  .whyImportant-module--UNHI_ {
+    text-align: left;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .whyImportant-module--KWOzj {
+    min-height: 2500px;
+    background: #06082a;
+    z-index: 0;
+  }
+  .whyImportant-module--KWOzj::before {
+    height: 92%;
+  }
+  .whyImportant-module--KWOzj::after {
+    height: 90%;
+  }
+  .whyImportant-module--KWOzj button {
+    width: 90%;
+  }
+  .whyImportant-module--UNHI_ {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .whyImportant-module--KWOzj {
+    min-height: 2400px;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/whyImportant/styles/factor.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.factor-module--yuRGz {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: radial-gradient(199.93% 76.58% at 22.59% 50%, #32398A 0%, #1E2256 100%), rgba(255, 255, 255, 0.05);
+  position: relative;
+}
+
+.factor-module--onZRo {
+  position: absolute;
+  left: 0;
+  top: -30px;
+}
+
+.factor-module--jqrpu {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.factor-module--tBcz6 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 600px) {
+  .factor-module--onZRo {
+    width: 150px;
+    height: 150px;
+    top: 15px;
+    left: 10px;
+  }
+  .factor-module--jqrpu {
+    font-size: 20px;
+  }
+  .factor-module--tBcz6 {
+    font-size: 14px;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/bestChoice/styles/bestChoice.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.bestChoice-module--IcQxe {
+  padding: 140px 0;
+  background: #fff;
+}
+
+.bestChoice-module--nzdXq {
+  color: #181B3F;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  margin-bottom: 64px;
+}
+.bestChoice-module--nzdXq span {
+  color: #BC1922;
+}
+
+@media screen and (max-width: 600px) {
+  .bestChoice-module--IcQxe {
+    padding: 64px 0;
+  }
+  .bestChoice-module--nzdXq {
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/bestChoice/styles/service.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.service-module--kuUGM {
+  border-radius: 16px;
+  height: 200px;
+}
+
+.service-module--jwNA_ {
+  background: #181B3F;
+}
+
+.service-module--ZeH93 {
+  background: #BC1922;
+}
+
+.service-module--jxqoA {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/equipments/styles/equipment.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.equipment-module--fU6Q4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/equipment-bg.1e16027b.webp);
+  background-repeat: no-repeat;
+  background-position: center -400px;
+  background-size: auto 220%;
+  padding: 150px 0px;
+  position: relative;
+}
+.equipment-module--fU6Q4::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #000;
+  opacity: 0.5;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.equipment-module--IcPGn {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipment-module--A5Bru {
+  width: 45%;
+}
+
+.equipment-module--tebZI {
+  color: #fff;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  width: 100%;
+}
+
+.equipment-module--FIAXN {
+  width: 55%;
+  margin-left: 20px;
+}
+.equipment-module--FIAXN::before {
+  content: "";
+  position: absolute;
+  background: #fff;
+  width: 40rem;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+  .equipment-module--fU6Q4 {
+    background-position: center -300px;
+    background-size: auto 200%;
+  }
+  .equipment-module--FIAXN::before {
+    width: 50vw;
+  }
+  .equipment-module--tebZI {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .equipment-module--fU6Q4 {
+    background-position: center -130px;
+    background-size: auto 140%;
+    padding: 0px 0;
+  }
+  .equipment-module--FIAXN::before {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .equipment-module--fU6Q4 {
+    padding: 0px 0px 210px;
+    background: none;
+  }
+  .equipment-module--fU6Q4::before {
+    display: none;
+  }
+  .equipment-module--fU6Q4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    background-image: url(images/equipment-bg.1e16027b.webp);
+    background-repeat: no-repeat;
+    background-position: center -60px;
+    background-size: 100%;
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+  }
+  .equipment-module--FIAXN {
+    width: 100%;
+    margin: 0;
+  }
+  .equipment-module--FIAXN::before {
+    display: none;
+  }
+  .equipment-module--IcPGn {
+    flex-direction: column;
+  }
+  .equipment-module--tebZI {
+    font-size: 36px;
+    z-index: 100;
+  }
+  .equipment-module--A5Bru {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+  }
+  .equipment-module--A5Bru::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #000;
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+    height: 300px;
+    z-index: 0;
+  }
+  .equipment-module--A5Bru::after {
+    content: "";
+    position: absolute;
+    background: url(images/equipment-bg2.860464ea.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    left: 0;
+    top: 0;
+    z-index: -2;
+  }
+  .equipment-module--A5Bru::before {
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 400px) {
+  .equipment-module--fU6Q4::after {
+    background-position: center -60px;
+    background-size: 135%;
+    height: 180px;
+  }
+  .equipment-module--A5Bru {
+    height: 250px;
+    padding-top: 40px;
+  }
+  .equipment-module--A5Bru::before {
+    height: 250px;
+  }
+  .equipment-module--A5Bru::after {
+    background-position: center;
+    background-size: 125%;
+    width: 100%;
+    height: 250px;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/equipments/styles/equipmentItem.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.equipmentItem-module--v203l {
+  color: #181B3F;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 600px) {
+  .equipmentItem-module--IB00C {
+    width: 70px;
+    height: 70px;
+  }
+  .equipmentItem-module--v203l {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/services/styles/startingAt.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.startingAt-module--Qy4lT::before, .startingAt-module--Qy4lT {
+  border-radius: 16px;
+  width: 425px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.startingAt-module--dDNCN {
+  position: absolute;
+  right: -35px;
+  bottom: 25px;
+  z-index: -1;
+}
+
+.startingAt-module--dnVov {
+  position: absolute;
+  left: -35px;
+  bottom: 25px;
+}
+
+.startingAt-module--Qy4lT {
+  background: var(--blue, #181B3F);
+  position: relative;
+}
+.startingAt-module--Qy4lT > p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  position: absolute;
+  bottom: 18px;
+}
+.startingAt-module--Qy4lT::before {
+  position: absolute;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #BC1922;
+  transform: rotate(-5.668deg);
+  z-index: -1;
+  transform-origin: center;
+}
+
+.startingAt-module--c6RG9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+}
+.startingAt-module--c6RG9 p {
+  position: absolute;
+  padding-top: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 600px) {
+  .startingAt-module--Qy4lT, .startingAt-module--Qy4lT::before {
+    width: 290px;
+    height: 95px;
+  }
+  .startingAt-module--Qy4lT > p {
+    font-size: 10px;
+    bottom: 10px;
+  }
+  .startingAt-module--c6RG9 {
+    width: 330px;
+    left: -21px;
+    top: 7px;
+  }
+  .startingAt-module--c6RG9 p {
+    font-size: 26px;
+  }
+  .startingAt-module--dDNCN, .startingAt-module--dnVov {
+    width: 68px;
+    height: 75px;
+    bottom: 21px;
+  }
+  .startingAt-module--dDNCN {
+    right: -19px;
+  }
+  .startingAt-module--dnVov {
+    left: -21px;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/services/styles/service.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.service-module--wYSns {
+  margin: 0 auto 16px;
+}
+
+.service-module--_X5eH {
+  color: #BC1922;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+.service-module--KqIBs {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 600px) {
+  .service-module--_X5eH {
+    text-align: left;
+  }
+  .service-module--KqIBs {
+    text-align: left;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/services/styles/bonus.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.bonus-module--eEDWO {
+  border-radius: 16px;
+  border: 1px solid rgba(81, 94, 209, 0.08);
+  background: #181B3F;
+}
+
+.bonus-module--IKIH9 {
+  margin: 0 auto 16px;
+}
+
+.bonus-module--WE7Zx {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 10px;
+}
+
+.bonus-module--grCXx {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 900px) {
+  .bonus-module--WE7Zx {
+    text-align: center;
+  }
+  .bonus-module--grCXx {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bonus-module--IKIH9 {
+    width: 80px;
+    height: 80px;
+    min-height: 80px;
+    margin: 0;
+  }
+  .bonus-module--WE7Zx {
+    text-align: left;
+    margin: 0;
+  }
+  .bonus-module--grCXx {
+    text-align: left;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/services/styles/services.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.services-module--whP_F {
+  padding: 140px 0;
+  background: #fff;
+}
+
+.services-module--R_mwk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.services-module--bwwaz {
+  color: #181B3F;
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  padding: 0 70px;
+}
+.services-module--bwwaz span {
+  color: #BC1922;
+}
+
+.services-module--ti6ur {
+  color: #181B3F;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.services-module--btjtv {
+  border-radius: 32px;
+  border: 1px solid rgba(81, 94, 209, 0.08);
+  position: relative;
+  padding: 40px 32px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services-module--fq1tK {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #BC1922;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: absolute;
+  top: -27px;
+}
+.services-module--fq1tK::after, .services-module--fq1tK::before {
+  background: #fff;
+  content: "";
+  position: absolute;
+}
+.services-module--fq1tK::after {
+  height: 25px;
+  width: 2px;
+}
+.services-module--fq1tK::before {
+  width: 25px;
+  height: 2px;
+}
+
+.services-module--KJW5H {
+  color: #181B3F;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  margin-bottom: 15px;
+}
+
+.services-module--yhlgX {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 35px;
+}
+
+.services-module--aLeWl {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 700px;
+}
+
+.services-module--RamcE {
+  color: #181B3F;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.services-module--SHJTg {
+  color: #747474;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.services-module--berwj {
+  display: block;
+  padding: 4px 8px;
+  border-radius: 50px;
+  color: #747474;
+  border: 1px solid #747474;
+}
+
+.services-module--haGgd {
+  color: #bc1922;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .services-module--whP_F {
+    padding: 64px 0;
+  }
+  .services-module--bwwaz {
+    font-size: 36px;
+    text-align: left;
+    padding: 0;
+  }
+  .services-module--ti6ur {
+    font-size: 24px;
+  }
+  .services-module--btjtv {
+    padding: 40px 0 32px;
+  }
+  .services-module--haGgd {
+    text-align: center;
+    font-size: 16px;
+  }
+  .services-module--RamcE {
+    font-size: 20px;
+  }
+  .services-module--aLeWl {
+    padding: 0;
+  }
+  .services-module--SHJTg {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/widgets/Footer/footer.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.footer-module--Dtttr {
+  padding: 30px 40px;
+  background: #fff;
+}
+
+.footer-module--wyB7B svg {
+  width: 90px;
+  height: 90px;
+}
+
+.footer-module--YlQ3O p {
+  line-height: 100%;
+}
+
+.footer-module--fMdac {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-module--bhPNH {
+  color: #4a4a4a;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 900px) {
+  .footer-module--bhPNH {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-module--fMdac {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-module--YlQ3O {
+    font-size: 12px;
+  }
+  .footer-module--wyB7B svg {
+    width: 64px;
+    height: 64px;
+  }
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./src/assets/fonts/stylesheet.css ***!
+  \***************************************************************************************************************/
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Regular.19055ba0.eot);
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url(fonts/Gilroy-Regular.19055ba0.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Regular.f6c9931f.woff2) format('woff2'),
+        url(fonts/Gilroy-Regular.ebe86c03.woff) format('woff'),
+        url(fonts/Gilroy-Regular.fa652e76.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-ExtraboldItalic.d4bac2be.eot);
+    src: local('Gilroy Extrabold Italic'), local('Gilroy-ExtraboldItalic'),
+        url(fonts/Gilroy-ExtraboldItalic.d4bac2be.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-ExtraboldItalic.cb765d86.woff2) format('woff2'),
+        url(fonts/Gilroy-ExtraboldItalic.a15d926a.woff) format('woff'),
+        url(fonts/Gilroy-ExtraboldItalic.465aa5d0.ttf) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Bold.aa68c169.eot);
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url(fonts/Gilroy-Bold.aa68c169.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Bold.ef7c40ff.woff2) format('woff2'),
+        url(fonts/Gilroy-Bold.0607a1bc.woff) format('woff'),
+        url(fonts/Gilroy-Bold.901a60fc.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Black.15c6a98f.eot);
+    src: local('Gilroy Black'), local('Gilroy-Black'),
+        url(fonts/Gilroy-Black.15c6a98f.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Black.ae06da6f.woff2) format('woff2'),
+        url(fonts/Gilroy-Black.a9df216d.woff) format('woff'),
+        url(fonts/Gilroy-Black.4628979a.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Light.f498309f.eot);
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+        url(fonts/Gilroy-Light.f498309f.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Light.c2e7a6dc.woff2) format('woff2'),
+        url(fonts/Gilroy-Light.368f09f5.woff) format('woff'),
+        url(fonts/Gilroy-Light.0ac7c2f9.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Semibold.54bc2f81.eot);
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url(fonts/Gilroy-Semibold.54bc2f81.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Semibold.7726b19d.woff2) format('woff2'),
+        url(fonts/Gilroy-Semibold.5b042906.woff) format('woff'),
+        url(fonts/Gilroy-Semibold.41fa36c3.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Medium.2fea647f.eot);
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url(fonts/Gilroy-Medium.2fea647f.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Medium.acd4e613.woff2) format('woff2'),
+        url(fonts/Gilroy-Medium.5329bc50.woff) format('woff'),
+        url(fonts/Gilroy-Medium.1c23f810.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-MediumItalic.2d3fcc2b.eot);
+    src: local('Gilroy Medium Italic'), local('Gilroy-MediumItalic'),
+        url(fonts/Gilroy-MediumItalic.2d3fcc2b.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-MediumItalic.56b6f6d9.woff2) format('woff2'),
+        url(fonts/Gilroy-MediumItalic.e50c6ab1.woff) format('woff'),
+        url(fonts/Gilroy-MediumItalic.89dade8d.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-BlackItalic.0c22099e.eot);
+    src: local('Gilroy Black Italic'), local('Gilroy-BlackItalic'),
+        url(fonts/Gilroy-BlackItalic.0c22099e.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-BlackItalic.a115605b.woff2) format('woff2'),
+        url(fonts/Gilroy-BlackItalic.c04a0aea.woff) format('woff'),
+        url(fonts/Gilroy-BlackItalic.9d038b5d.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-UltraLight.69d95728.eot);
+    src: local('Gilroy UltraLight'), local('Gilroy-UltraLight'),
+        url(fonts/Gilroy-UltraLight.69d95728.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-UltraLight.378f4351.woff2) format('woff2'),
+        url(fonts/Gilroy-UltraLight.9169fa71.woff) format('woff'),
+        url(fonts/Gilroy-UltraLight.6c356bf4.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-RegularItalic.3b7071f6.eot);
+    src: local('Gilroy Regular Italic'), local('Gilroy-RegularItalic'),
+        url(fonts/Gilroy-RegularItalic.3b7071f6.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-RegularItalic.5c23dc85.woff2) format('woff2'),
+        url(fonts/Gilroy-RegularItalic.1a8de217.woff) format('woff'),
+        url(fonts/Gilroy-RegularItalic.5f3ed3d8.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-SemiboldItalic.df9d884f.eot);
+    src: local('Gilroy Semibold Italic'), local('Gilroy-SemiboldItalic'),
+        url(fonts/Gilroy-SemiboldItalic.df9d884f.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-SemiboldItalic.f573f3d8.woff2) format('woff2'),
+        url(fonts/Gilroy-SemiboldItalic.b7e83a7d.woff) format('woff'),
+        url(fonts/Gilroy-SemiboldItalic.4d55ee19.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-HeavyItalic.df7d31c8.eot);
+    src: local('Gilroy Heavy Italic'), local('Gilroy-HeavyItalic'),
+        url(fonts/Gilroy-HeavyItalic.df7d31c8.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-HeavyItalic.1260ebe3.woff2) format('woff2'),
+        url(fonts/Gilroy-HeavyItalic.25ba04db.woff) format('woff'),
+        url(fonts/Gilroy-HeavyItalic.4e271337.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Extrabold.35fe3e3e.eot);
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+        url(fonts/Gilroy-Extrabold.35fe3e3e.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Extrabold.5c5942d3.woff2) format('woff2'),
+        url(fonts/Gilroy-Extrabold.f39ff81c.woff) format('woff'),
+        url(fonts/Gilroy-Extrabold.92e435f7.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-BoldItalic.59f5bb14.eot);
+    src: local('Gilroy Bold Italic'), local('Gilroy-BoldItalic'),
+        url(fonts/Gilroy-BoldItalic.59f5bb14.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-BoldItalic.990e3c5e.woff2) format('woff2'),
+        url(fonts/Gilroy-BoldItalic.76c9191d.woff) format('woff'),
+        url(fonts/Gilroy-BoldItalic.244d410b.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-UltraLightItalic.a6fc8679.eot);
+    src: local('Gilroy UltraLight Italic'), local('Gilroy-UltraLightItalic'),
+        url(fonts/Gilroy-UltraLightItalic.a6fc8679.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-UltraLightItalic.9e044996.woff2) format('woff2'),
+        url(fonts/Gilroy-UltraLightItalic.3c8027c9.woff) format('woff'),
+        url(fonts/Gilroy-UltraLightItalic.68a9a27f.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-LightItalic.8c6863c1.eot);
+    src: local('Gilroy Light Italic'), local('Gilroy-LightItalic'),
+        url(fonts/Gilroy-LightItalic.8c6863c1.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-LightItalic.8dde5723.woff2) format('woff2'),
+        url(fonts/Gilroy-LightItalic.d899841d.woff) format('woff'),
+        url(fonts/Gilroy-LightItalic.7b680060.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Heavy.d3e25fef.eot);
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),
+        url(fonts/Gilroy-Heavy.d3e25fef.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Heavy.19b3f6fe.woff2) format('woff2'),
+        url(fonts/Gilroy-Heavy.406f336a.woff) format('woff'),
+        url(fonts/Gilroy-Heavy.bf729a99.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Thin.a479c0c1.eot);
+    src: local('Gilroy Thin'), local('Gilroy-Thin'),
+        url(fonts/Gilroy-Thin.a479c0c1.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-Thin.8d8f3d8a.woff2) format('woff2'),
+        url(fonts/Gilroy-Thin.4b118de0.woff) format('woff'),
+        url(fonts/Gilroy-Thin.fc813b75.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-ThinItalic.cea6b0a2.eot);
+    src: local('Gilroy Thin Italic'), local('Gilroy-ThinItalic'),
+        url(fonts/Gilroy-ThinItalic.cea6b0a2.eot?#iefix) format('embedded-opentype'),
+        url(fonts/Gilroy-ThinItalic.aa21bf23.woff2) format('woff2'),
+        url(fonts/Gilroy-ThinItalic.214652f4.woff) format('woff'),
+        url(fonts/Gilroy-ThinItalic.aa74839c.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/widgets/Header/styles/header.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.header-module--X9O4t {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px 0;
+}
+
+.header-module--ALanw {
+  position: absolute;
+  background: #fff;
+  padding: 15px;
+  left: 40px;
+  border-radius: 50%;
+}
+
+.header-module--xcWys {
+  padding-left: 200px;
+}
+
+.header-module--cpifD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.header-module--oVFKF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-module--Tn7KB {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.header-module--Tn7KB:hover {
+  background: #cdd4d7;
+}
+
+.header-module--Da3TR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-module--FTco1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+.header-module--FTco1 span {
+  position: relative;
+  height: 0.16rem;
+  background: #000;
+  width: 24px;
+  border-radius: 40%;
+}
+@media screen and (max-width: 1200px) {
+  .header-module--X9O4t {
+    height: 100px;
+    justify-content: flex-end;
+  }
+  .header-module--xcWys, .header-module--oVFKF {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 640px) {
+  .header-module--X9O4t {
+    padding: 36px 15px 0;
+  }
+  .header-module--ALanw {
+    top: 40px;
+    left: 15px;
+    padding: 10px;
+  }
+  .header-module--ALanw svg {
+    width: 80px;
+    height: 80px;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/widgets/Header/styles/headerLink.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.headerLink-module--cwpG0 {
+  display: flex;
+  padding: 30px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-style: normal;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+}
+.headerLink-module--cwpG0:hover {
+  border-bottom: 3px solid #BC1922;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/reviews/styles/reviews.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.reviews-module--jvPJR {
+  padding: 140px 0;
+  background: url(images/reviews-bg.e68cfe8e.webp) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.reviews-module--jvPJR::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #000;
+  opacity: 0.4;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.reviews-module--tbJZz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reviews-module--zoYca {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  z-index: 1;
+  text-align: center;
+}
+
+.reviews-module--rPzoj {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  z-index: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .reviews-module--jvPJR {
+    padding: 64px 0;
+  }
+  .reviews-module--zoYca {
+    font-size: 36px;
+    text-align: left;
+  }
+  .reviews-module--rPzoj {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 600px) {
+  .reviews-module--paiQO {
+    width: 100%;
+  }
+  .reviews-module--paiQO button {
+    width: 100%;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/reviews/styles/review.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.review-module--PoRbw {
+  background: #fff;
+  border-radius: 32px 32px 32px 0;
+  position: relative;
+}
+
+.review-module--_M3hN {
+  color: #181B3F;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 5px;
+}
+
+.review-module--CTuOw {
+  color: #747474;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-top: 20px;
+}
+
+.review-module--y64YI {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/brands/styles/brands.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.brands-module--pSBUv {
+  padding: 140px 0;
+  background: #fff;
+}
+
+.brands-module--kwjkh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brands-module--NuqET {
+  color: #BC1922;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  text-transform: uppercase;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.brands-module--uFK0x {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.brands-module--A05zW {
+  color: #9FA5EA;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-top: 64px;
+}
+
+@media screen and (max-width: 600px) {
+  .brands-module--pSBUv {
+    padding: 64px 0;
+  }
+  .brands-module--NuqET {
+    font-size: 36px;
+    text-align: left;
+    width: 100%;
+  }
+  .brands-module--uFK0x {
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+  }
+  .brands-module--A05zW {
+    margin-top: 32px;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/offers/styles/offers.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.offers-module--KEoIb {
+  padding: 140px 0;
+  background: url(images/offers-bg.a051066f.webp) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.offers-module--KEoIb::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #000;
+  opacity: 0.5;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.offers-module--w1R4M {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.offers-module--XTIYe {
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.offers-module--lw8UX {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  z-index: 1;
+}
+
+.offers-module--NALd6 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 600px) {
+  .offers-module--KEoIb {
+    padding: 64px 0;
+  }
+  .offers-module--XTIYe {
+    font-size: 36px;
+  }
+  .offers-module--lw8UX {
+    font-size: 24px;
+  }
+  .offers-module--w1R4M button {
+    width: 100%;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/offers/styles/offer.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.offer-module--QzMVo {
+  border-radius: 32px;
+  padding: 24px;
+  width: 240px;
+  height: 200px;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 1;
+  position: relative;
+}
+.offer-module--QzMVo:hover {
+  transform: scale(1.1);
+  border: 4px solid #0b2126;
+}
+
+.offer-module--De4Gy {
+  background: #BC1922;
+  color: #fff;
+}
+
+.offer-module--qN6w_ {
+  background: #fff;
+  color: #000;
+}
+
+@media screen and (max-width: 1300px) {
+  .offer-module--QzMVo {
+    width: 220px;
+    height: 190px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .offer-module--QzMVo {
+    width: 100%;
+    height: auto;
+    padding: 32px 16px;
+    border-radius: 16px;
+  }
+  .offer-module--QzMVo img {
+    width: 64px;
+    height: 64px;
+  }
+  .offer-module--QzMVo h4 {
+    font-size: 20px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/discover/styles/discover.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.discover-module--kGkzn {
+  padding: 140px 0;
+  background: #fff;
+}
+
+.discover-module--BezE6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.discover-module--QsTXF {
+  color: "#fff";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+}
+
+.discover-module--ZqypA {
+  color: #BC1922;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.discover-module--h97MR, .discover-module--vUXgX {
+  border-radius: 32px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 16px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.discover-module--h97MR span, .discover-module--vUXgX span {
+  color: #fff;
+}
+
+.discover-module--vUXgX {
+  background: #BC1922;
+}
+
+.discover-module--h97MR {
+  background: #181B3F;
+}
+
+@media screen and (max-width: 900px) {
+  .discover-module--kGkzn {
+    padding: 64px 0;
+  }
+  .discover-module--QsTXF {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .discover-module--kGkzn {
+    padding: 64px 0;
+  }
+  .discover-module--QsTXF {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  .discover-module--ZqypA {
+    font-size: 16px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/promises/styles/promises.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.promises-module--FxaoP {
+  padding: 140px 0;
+  background: url(images/promise-bg.0e57db29.webp) no-repeat;
+  background-position: 900px 0;
+  background-size: auto 100%;
+  position: relative;
+}
+.promises-module--FxaoP::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  background: #0a0e2b;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.promises-module--MUUoS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.promises-module--MUUoS h2 {
+  color: #BC1922;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 1;
+  margin-bottom: 48px;
+}
+
+.promises-module--rGBwH {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.promises-module--CT4vj {
+  color: #9FA5EA;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  z-index: 1;
+  margin-bottom: 60px;
+}
+
+.promises-module--uoOKx {
+  position: relative;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.promises-module--kYZxQ h3 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.promises-module--kYZxQ p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 250px;
+}
+
+.promises-module--SCPVn {
+  margin-top: 32px;
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1536px) {
+  .promises-module--FxaoP {
+    background-position: 700px 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .promises-module--FxaoP {
+    background: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .promises-module--FxaoP {
+    background: none;
+    padding: 64px 0;
+  }
+  .promises-module--rGBwH {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .promises-module--CT4vj {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .promises-module--MUUoS h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .promises-module--SCPVn {
+    flex-direction: column;
+    width: 100%;
+  }
+  .promises-module--SCPVn button {
+    width: 100%;
+  }
+  .promises-module--kYZxQ {
+    width: 100%;
+    text-align: center;
+  }
+  .promises-module--kYZxQ p {
+    max-width: 100%;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/promises/styles/promise.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.promise-module--BfIvJ {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.promise-module--_W3_9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #0a0e2b;
+}
+.promise-module--_W3_9 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+}
+
+.promise-module--U4Tjg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background: #0a0e2b;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/aboutUs/styles/aboutUs.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.aboutUs-module--dQ0Z_ {
+  background: url(images/aboutUs-bg.553033b0.webp);
+  background-size: auto 120%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+.aboutUs-module--mUQoU {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.aboutUs-module--KQH9K {
+  color: #BC1922;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+  line-height: 90%;
+}
+
+.aboutUs-module--vGCzc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.aboutUs-module--vGCzc p {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.aboutUs-module--MCBF2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.aboutUs-module--wSNOg p:nth-child(1) {
+  color: #181B3F;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.aboutUs-module--wSNOg p:nth-child(2) {
+  color: #181B3F;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.aboutUs-module--JsojB {
+  color: #181B3F;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  width: 100%;
+}
+
+.aboutUs-module--pchOH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+}
+
+.aboutUs-module--nQoy7 {
+  background: #3CF;
+}
+
+.aboutUs-module--Q04Ua {
+  background: linear-gradient(315deg, #FBE18A 0.96%, #FCBB45 21.96%, #F75274 38.96%, #D53692 52.96%, #8F39CE 74.96%, #5B4FE9 100.96%);
+}
+
+.aboutUs-module--FMXcl {
+  background: #337FFF;
+}
+
+@media screen and (max-width: 1536px) {
+  .aboutUs-module--dQ0Z_ {
+    background: #fff;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutUs-module--KQH9K {
+    width: 100%;
+    text-align: center;
+  }
+  .aboutUs-module--UEjA2 button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .aboutUs-module--KQH9K {
+    text-align: left;
+    font-size: 36px;
+  }
+  .aboutUs-module--vGCzc p {
+    font-size: 14px;
+  }
+  .aboutUs-module--UEjA2 button {
+    width: 100%;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/home/contactUs/styles/contactUs.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.contactUs-module--TGPuO {
+  padding: 140px 0;
+  scale: 1;
+  position: relative;
+  display: flex;
+}
+.contactUs-module--TGPuO::before {
+  content: "";
+  position: absolute;
+  background: rgb(31, 34, 65);
+  background: linear-gradient(0deg, rgb(31, 34, 65) 0%, rgb(32, 36, 71) 40%, rgb(32, 36, 71) 70%, rgb(31, 34, 65) 100%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+.contactUs-module--TGPuO::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-image: url(images/contactUs-bg.dd078cc2.webp);
+  background-repeat: no-repeat;
+  background-position: 400px -230px;
+  background-size: 90% 160%;
+  padding: 140px 0;
+  z-index: -1;
+}
+
+.contactUs-module--DBvZU {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contactUs-module--JzGds {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%;
+}
+
+.contactUs-module--uZEYx {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.contactUs-module--rjgPJ {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.contactUs-module--rjgPJ h3 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 8px;
+}
+.contactUs-module--rjgPJ p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.contactUs-module--dj59q {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
+  position: relative;
+}
+.contactUs-module--dj59q::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background: #BC1922;
+  border-radius: 50%;
+}
+.contactUs-module--dj59q span {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  z-index: 1;
+  position: relative;
+  top: 2px;
+}
+
+.contactUs-module--znlaI {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .contactUs-module--TGPuO::after {
+    background-position: 200px center;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contactUs-module--TGPuO {
+    padding: 64px 0;
+  }
+  .contactUs-module--TGPuO::after {
+    background-position: center top;
+    background-size: 130% auto;
+  }
+  .contactUs-module--TGPuO::before {
+    background: #1e2341;
+  }
+  .contactUs-module--pvCUB {
+    padding-top: 60vw;
+  }
+  .contactUs-module--rjgPJ {
+    align-items: flex-start;
+  }
+  .contactUs-module--znlaI {
+    display: flex;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contactUs-module--TGPuO::after {
+    background-position: center top;
+    background-size: 140% auto;
+  }
+  .contactUs-module--pvCUB {
+    padding-top: 55vw;
+  }
+  .contactUs-module--LvnbT {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contactUs-module--TGPuO::after {
+    background-position: center top;
+    background-size: 140% auto;
+  }
+  .contactUs-module--JzGds {
+    font-size: 36px;
+  }
+  .contactUs-module--uZEYx {
+    font-size: 16px;
+  }
+  .contactUs-module--pvCUB {
+    padding-top: 60vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contactUs-module--TGPuO::after {
+    background-position: center 40px;
+    background-size: 150% auto;
+  }
+  .contactUs-module--JzGds {
+    font-size: 36px;
+  }
+  .contactUs-module--uZEYx {
+    font-size: 16px;
+  }
+  .contactUs-module--pvCUB {
+    padding-top: 65vw;
+  }
+}
+.contactUs-module--dBh0x {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.contactUs-module--dBh0x:hover {
+  background: #1b5e79;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/contacts/introduction/styles/introduction.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.introduction-module--Drsr1 {
+  width: 100%;
+  height: 780px;
+}
+.introduction-module--Drsr1::before {
+  content: "";
+  left: 0;
+  background: url(images/contacts-intro.cf35c499.png);
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.introduction-module--Clcc8 {
+  color: #181B3F;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.introduction-module--QKBaM {
+  height: 100%;
+  padding-top: 14vw;
+  padding-left: 50px;
+}
+
+.introduction-module--gz2zW {
+  position: absolute;
+  left: 220px;
+  bottom: -15px;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/contacts/contactsWindow/styles/contactItem.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.contactItem-module--QCOf_ {
+  color: #fff;
+}
+
+.contactItem-module--dx_JR {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  line-height: 120%;
+}
+
+.contactItem-module--yYwL8 {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.contactItem-module--yYwL8:nth-child(2) {
+  padding-top: 8px;
+  margin-bottom: 8px;
+}
+
+.contactItem-module--Rw2Qx {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: -10px;
+  padding-top: 10px;
+}
+
+.contactItem-module--B1j6M {
+  position: absolute;
+  left: -15px;
+  top: 0px;
+  z-index: 0;
+}
+.contactItem-module--B1j6M circle {
+  z-index: 0;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/contacts/contactsWindow/styles/form.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.form-module--smJEx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 64px 80px;
+}
+.form-module--smJEx::before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  width: 58.3333333333%;
+  right: 0;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+}
+
+.form-module--WGkSO {
+  color: #BC1922;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 8px;
+  z-index: 1;
+  width: 100%;
+  text-align: left;
+}
+
+.form-module--Sp7JH {
+  color: #181B3F;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  z-index: 1;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.form-module--m2GXw {
+  position: absolute;
+  bottom: 15px;
+  left: 7px;
+}
+
+.form-module--uyMlO {
+  bottom: 10px;
+  left: 3px;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/contacts/contactsWindow/styles/contactsWindow.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.contactsWindow-module--uiDtp {
+  width: 100%;
+  max-height: 850px;
+  height: 800px;
+  background: #0F1235;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsWindow-module--funbH, .contactsWindow-module--JvvlB {
+  background: #0F1235;
+  width: 470px;
+  height: 800px;
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactsWindow-module--funbH::after, .contactsWindow-module--JvvlB::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+.contactsWindow-module--funbH::before, .contactsWindow-module--JvvlB::before {
+  content: "";
+  position: absolute;
+  border-radius: 620px;
+  background: linear-gradient(180deg, rgba(255, 212, 101, 0.39) 30%, rgba(255, 0, 0, 0.39) 100%);
+  mix-blend-mode: color-dodge;
+  filter: blur(150.5px);
+  width: 620px;
+  height: 608px;
+  transform: rotate(-119.901deg);
+  z-index: 0;
+}
+
+.contactsWindow-module--JvvlB {
+  left: 0;
+}
+.contactsWindow-module--JvvlB::after {
+  background-image: url(images/flame-left.7edf5395.webp);
+  background-position: 0px center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  left: 0;
+  opacity: 1;
+}
+.contactsWindow-module--JvvlB::before {
+  left: 180px;
+}
+
+.contactsWindow-module--funbH {
+  right: 0;
+}
+.contactsWindow-module--funbH::after {
+  background: url(images/flame-right.13310c65.webp);
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  background-size: auto;
+  right: 0;
+}
+.contactsWindow-module--funbH::before {
+  left: -240px;
+}
+
+.contactsWindow-module--p8qMm {
+  color: "#181B3F";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.contactsWindow-module--VX5qK {
+  height: 100%;
+  padding-top: 14vw;
+  padding-left: 50px;
+}
+
+.contactsWindow-module--rUr_e {
+  position: absolute;
+  left: 220px;
+  bottom: -15px;
+}
+
+.contactsWindow-module--hX034 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background: #181B3F;
+  width: 70%;
+  border-radius: 24px;
+  height: 900px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1800px) {
+  .contactsWindow-module--JvvlB, .contactsWindow-module--funbH {
+    background: #0F1235;
+    width: 430px;
+  }
+  .contactsWindow-module--JvvlB::after {
+    background-position: -40px center;
+  }
+  .contactsWindow-module--JvvlB::before {
+    left: 150px;
+  }
+  .contactsWindow-module--funbH::after {
+    background-position: 0px center;
+  }
+  .contactsWindow-module--funbH::before {
+    left: -300px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/contacts/areas/styles/areas.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.areas-module--Ip_LX {
+  position: relative;
+}
+
+.areas-module--gpbDH {
+  color: #BC1922;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.areas-module--x8UVe {
+  color: #181B3F;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.areas-module--CzWMD {
+  padding-top: 130px;
+  padding-bottom: 200px;
+}
+
+.areas-module--lTKWa {
+  position: absolute;
+  left: 220px;
+  bottom: -15px;
+}
+
+.areas-module--Hr2iT {
+  position: absolute;
+  width: 56%;
+  height: 100%;
+  right: 0px;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.areas-module--AJ49g {
+  width: 100%;
+  height: 100%;
+}
+.areas-module--AJ49g img {
+  position: absolute;
+  left: -450px;
+  max-width: 1600px;
+  width: 1600px;
+  height: 100%;
+}
+.areas-module--AJ49g p {
+  color: #181B3F;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.areas-module--HnbJW {
+  position: absolute;
+  left: 182px;
+  bottom: 160px;
+}
+
+.areas-module--yffnP {
+  position: absolute;
+  left: 230px;
+  bottom: 310px;
+}
+
+.areas-module--NDGge {
+  position: absolute;
+  top: 390px;
+  left: 200px;
+}
+
+.areas-module--UKpne {
+  position: absolute;
+  top: 400px;
+  left: 315px;
+}
+
+.areas-module--yf1kA {
+  position: absolute;
+  top: 325px;
+  left: 585px;
+}
+
+.areas-module--b5uWj {
+  position: absolute;
+  top: 520px;
+  left: 650px;
+}
+
+.areas-module--yPo1O {
+  position: absolute;
+  top: 520px;
+  left: 385px;
+}
+
+.areas-module--mJG4k {
+  position: absolute;
+  top: 645px;
+  left: 535px;
+}
+
+@media screen and (max-width: 1700px) {
+  .areas-module--AJ49g img {
+    left: -550px;
+  }
+  .areas-module--HnbJW {
+    left: 82px;
+    bottom: 160px;
+  }
+  .areas-module--yffnP {
+    left: 130px;
+    bottom: 310px;
+  }
+  .areas-module--NDGge {
+    left: 100px;
+  }
+  .areas-module--UKpne {
+    left: 215px;
+  }
+  .areas-module--yf1kA {
+    left: 485px;
+  }
+  .areas-module--b5uWj {
+    left: 550px;
+  }
+  .areas-module--yPo1O {
+    left: 285px;
+  }
+  .areas-module--mJG4k {
+    left: 435px;
+  }
+}
+/*
+@media screen and (max-width: 1920px) {
+    .section_map_overlay {
+        position: absolute;
+        left: 185px;
+        bottom: 160px;
+    }
+}*/
 /*!***************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./src/assets/fonts/stylesheet.css ***!
   \***************************************************************************************************************/
@@ -601,6 +3026,11 @@
 
 body {
     font-family: 'Gilroy', sans-serif;
+}
+
+body, html {
+    margin: 0 !important;
+    padding: 0;
 }
 
 * {

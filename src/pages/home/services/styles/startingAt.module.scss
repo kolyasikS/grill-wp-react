@@ -1,0 +1,102 @@
+@import '@assets/styles/mixins';
+
+%block {
+    border-radius: 16px;
+    width: 425px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.leftSvg {
+    position: absolute;
+    right: -35px;
+    bottom: 25px;
+    z-index: -1;
+}
+
+.rightSvg {
+    position: absolute;
+    left: -35px;
+    bottom: 25px;
+}
+
+.blueBlock {
+    background: var(--blue, #181B3F);
+    position: relative;
+    @extend %block;
+    & > p {
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+        position: absolute;
+        bottom: 18px;
+    }
+
+    &::before {
+        @extend %block;
+        position: absolute;
+        top: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #BC1922;
+        transform: rotate(-5.668deg);
+        z-index: -1;
+        transform-origin: center;
+    }
+}
+
+.redTrapeze {
+    @include flexCenter;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    p {
+        position: absolute;
+        padding-top: 5px;
+        color: #fff;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blueBlock, .blueBlock::before {
+        width: 290px;
+        height: 95px;
+    }
+    .blueBlock {
+        > p {
+            font-size: 10px;
+            bottom: 10px;
+        }
+    }
+    .redTrapeze {
+        width: 330px;
+        left: -21px;
+        top: 7px;
+        p {
+            font-size: 26px;
+        }
+    }
+    .leftSvg, .rightSvg {
+        width: 68px;
+        height: 75px;
+        bottom: 21px;
+    }
+    .leftSvg {
+        right: -19px;
+    }
+    .rightSvg {
+        left: -21px;
+    }
+}

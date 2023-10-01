@@ -1,0 +1,51 @@
+.bonus {
+    border-radius: 16px;
+    border: 1px solid rgba(81, 94, 209, 0.08);
+    background: #181B3F;
+}
+
+.bonus__image {
+    margin: 0 auto 16px;
+}
+
+.bonus__title {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 10px;
+}
+
+.bonus__purpose {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+@media screen and (max-width: 900px) {
+    .bonus__title {
+        text-align: center;
+    }
+    .bonus__purpose {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bonus__image {
+        width: 80px;
+        height: 80px;
+        min-height: 80px;
+        margin: 0;
+    }
+
+    .bonus__title {
+        text-align: left;
+        margin: 0;
+    }
+    .bonus__purpose {
+        text-align: left;
+    }
+}

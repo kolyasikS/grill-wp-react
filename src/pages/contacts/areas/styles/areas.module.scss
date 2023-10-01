@@ -1,0 +1,142 @@
+@import "@assets/styles/mixins";
+
+.section {
+    position: relative;
+}
+.section_title {
+    @include sectionTitle(#BC1922, 64px, 700);
+
+}
+.section_subtitle {
+    color: #181B3F;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.section_wrapper {
+    padding-top: 130px;
+    padding-bottom: 200px;
+}
+
+.section_wrapper__btn {
+    position: absolute;
+    left: 220px;
+    bottom: -15px;
+}
+
+.section_map_wrapper {
+    position: absolute;
+    width: 56%;
+    height: 100%;
+    right: 0px;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.section_map {
+    width: 100%;
+    height: 100%;
+    img {
+        position: absolute;
+        left: -450px;
+        max-width: 1600px;
+        width: 1600px;
+        height: 100%;
+    }
+    p {
+        color: #181B3F;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 130%;
+    }
+}
+
+.section_map_overlay {
+    position: absolute;
+    left: 182px;
+    bottom: 160px;
+}
+
+.section_map_stroke {
+    position: absolute;
+    left: 230px;
+    bottom: 310px;
+}
+
+.section_map_ventura {
+    position: absolute;
+    top: 390px;
+    left: 200px;
+}
+.section_map_losAngeles {
+    position: absolute;
+    top: 400px;
+    left: 315px;
+}
+.section_map_sanBernardino {
+    position: absolute;
+    top: 325px;
+    left: 585px;
+}
+.section_map_riverside {
+    position: absolute;
+    top: 520px;
+    left: 650px;
+}
+.section_map_orange {
+    position: absolute;
+    top: 520px;
+    left: 385px;
+}
+.section_map_sanDiego {
+    position: absolute;
+    top: 645px;
+    left: 535px;
+}
+
+@media screen and (max-width: 1700px) {
+    .section_map {
+        img {
+            left: -550px;
+        }
+    }
+
+    .section_map_overlay {
+        left: 82px;
+        bottom: 160px;
+    }
+
+    .section_map_stroke {
+        left: 130px;
+        bottom: 310px;
+    }
+
+    .section_map_ventura {
+        left: 100px;
+    }
+    .section_map_losAngeles {
+        left: 215px;
+    }
+    .section_map_sanBernardino {
+        left: 485px;
+    }
+    .section_map_riverside {
+        left: 550px;
+    }
+    .section_map_orange {
+        left: 285px;
+    }
+    .section_map_sanDiego {
+        left: 435px;
+    }
+}
+
+/*
+@media screen and (max-width: 1920px) {
+    .section_map_overlay {
+        position: absolute;
+        left: 185px;
+        bottom: 160px;
+    }
+}*/

@@ -1,0 +1,51 @@
+@import "@assets/styles/mixins";
+.offer {
+    border-radius: 32px;
+    padding: 24px;
+    width: 240px;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.2s;
+    z-index: 1;
+    position: relative;
+    &:hover {
+        transform: scale(1.1);
+        border: 4px solid #0b2126;
+    }
+}
+
+.redBg {
+    background: #BC1922;
+    color: #fff
+}
+
+.whiteBg {
+    background: #fff;
+    color: #000;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .offer {
+        width: 220px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .offer {
+        width: 100%;
+        height: auto;
+        padding: 32px 16px;
+        border-radius: 16px;
+
+        img {
+            width: 64px;
+            height: 64px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+}

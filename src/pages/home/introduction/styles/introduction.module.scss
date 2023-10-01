@@ -8,7 +8,7 @@
     position: relative;
     &::before {
         content: '';
-        background-image: url("../../../../assets/images/homePage/bg.webp");
+        background-image: url("@assets/images/homePage/bg.webp");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -83,7 +83,7 @@
     .section {
         min-height: auto;
         &::before {
-            background: url("../../../../assets/images/homePage/bg-xs.webp");
+            background: url("@assets/images/homePage/bg-xs.webp");
             background-size: 100% auto;
             background-repeat: no-repeat;
             background-position: center bottom;
@@ -123,7 +123,7 @@
         height: 640px;
         &::before {
             min-height: auto;
-            background: url("../../../../assets/images/homePage/bg-1850.webp");
+            background: url("@assets/images/homePage/bg-1850.webp");
             background-size: 100% auto;
             background-repeat: no-repeat;
             background-position: center bottom;

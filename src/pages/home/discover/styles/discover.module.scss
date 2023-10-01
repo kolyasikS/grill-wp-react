@@ -1,0 +1,68 @@
+@import "@assets/styles/mixins";
+
+.section {
+    padding: 140px 0;
+    background: #fff;
+}
+
+.section__inner {
+    @include flexCenter(true)
+}
+
+.section__title {
+    @include sectionTitle('#fff');
+}
+
+.section__subtitle {
+    color: #BC1922;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+%cleanCaption {
+    border-radius: 32px;
+    width: fit-content;
+    padding: 8px 16px;
+    position: absolute;
+
+    top: 25px;
+    left: 25px;
+    span {
+        color: #fff;
+    }
+}
+.beforeCleanCaption {
+    background: #BC1922;
+    @extend %cleanCaption;
+}
+
+.afterCleanCaption {
+    background: #181B3F;
+    @extend %cleanCaption;
+}
+
+@media screen and (max-width: 900px) {
+    .section {
+        padding: 64px 0;
+    }
+
+    .section__title {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 900px) {
+    .section {
+        padding: 64px 0;
+    }
+
+    .section__title {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .section__subtitle {
+        font-size: 16px;
+    }
+}

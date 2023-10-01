@@ -1,0 +1,44 @@
+.factor {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: radial-gradient(199.93% 76.58% at 22.59% 50.00%, #32398A 0%, #1E2256 100%), rgba(255, 255, 255, 0.05);
+    position: relative;
+}
+.factor__image {
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
+
+.factor__title {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.factor__content {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+@media screen and (max-width: 600px) {
+    .factor__image {
+        width: 150px;
+        height: 150px;
+        top: 15px;
+        left: 10px;
+    }
+
+    .factor__title {
+        font-size: 20px;
+    }
+
+    .factor__content {
+        font-size: 14px;
+    }
+}

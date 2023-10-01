@@ -1,0 +1,131 @@
+@import "@assets/styles/mixins";
+
+.section {
+    padding: 140px 0;
+    background: url("@assets/images/homePage/promise-bg.webp") no-repeat;
+    background-position: 900px 0;
+    background-size: auto 100%;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        background: #0a0e2b;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.section__inner {
+    @include flexCenter(true);
+    align-items: flex-start;
+    h2 {
+        color: #BC1922;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        z-index: 1;
+        margin-bottom: 48px;
+    }
+}
+
+.section__title {
+    @include sectionTitle(#fff, 64px);
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.section__subtitle {
+    color: #9FA5EA;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    z-index: 1;
+    margin-bottom: 60px;
+}
+
+.circle {
+    position: relative;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.promise__caption {
+    h3 {
+        color: #fff;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    p {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        max-width: 250px;
+    }
+}
+.section__bottomContent {
+    margin-top: 32px;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1536px) {
+    .section {
+        background-position: 700px 0;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .section {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        background: none;
+        padding: 64px 0;
+    }
+
+    .section__title {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .section__subtitle {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+
+    .section__inner {
+        h2 {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+    }
+
+    .section__bottomContent {
+        flex-direction: column;
+        width: 100%;
+
+        button {
+            width: 100%;
+        }
+    }
+    .promise__caption {
+        width: 100%;
+        text-align: center;
+        p {
+            max-width: 100%;
+        }
+    }
+}
