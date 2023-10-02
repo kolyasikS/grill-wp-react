@@ -6,6 +6,7 @@
     height: 800px;
     background: #0F1235;
     @include flexCenter();
+    z-index: 10;
 }
 %flame {
     background: #0F1235;
@@ -75,6 +76,7 @@
     height: 100%;
     padding-top: 14vw;
     padding-left: 50px;
+    z-index: 10;
 }
 
 .section_wrapper__btn {
@@ -92,6 +94,7 @@
     border-radius: 24px;
     height: 900px;
     overflow: hidden;
+    z-index: 10;
 }
 
 @media screen and (max-width: 1800px) {
@@ -116,3 +119,36 @@
         }
     }
 }
+
+@media screen and (max-width: 1300px) {
+    %flame {
+        &::after {
+            display: none;
+        }
+    }
+
+    .section_content {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section {
+        max-height: 1500px;
+        height: fit-content;
+    }
+    .section_content {
+        height: 1550px;
+        position: relative;
+    }
+    %flame {
+       display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section_content {
+        width: 100%;
+    }
+}
+

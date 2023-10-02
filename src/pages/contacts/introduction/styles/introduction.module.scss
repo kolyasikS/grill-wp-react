@@ -17,7 +17,7 @@
     }
 }
 .section_title {
-    @include sectionTitle(#181B3F, 64px, 700);
+    @include sectionTitle('#181B3F', 64px, 700);
 
 }
 .section_wrapper {
@@ -30,4 +30,47 @@
     position: absolute;
     left: 220px;
     bottom: -15px;
+}
+
+@media screen and (max-width: 1250px) {
+    .section {
+        &::before {
+            background-position: center 80px;
+        }
+    }
+    .section_title {
+        font-size: 48px;
+    }
+    .section_wrapper__btn {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .section {
+        &::before {
+            background-position: -650px 80px;
+        }
+    }
+
+    .section_wrapper {
+        height: 100%;
+        padding-top: 180px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section {
+        &::before {
+            background-position: center 80px;
+        }
+    }
+    .section_wrapper {
+        padding-left: 0;
+    }
+    .section_title {
+        font-size: 32px;
+    }
 }

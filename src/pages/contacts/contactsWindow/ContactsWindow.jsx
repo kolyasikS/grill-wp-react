@@ -9,7 +9,20 @@ const ContactsWindow = () => {
         <section className={styles.section}>
             <div className={styles.left_flame}></div>
             <div className={styles.right_flame}></div>
-            <Grid className={styles.section_content} columns={12} p={9} columnGap={2} pr={0}>
+            <Grid className={styles.section_content}
+                  flexDirection={{
+                      md: 'row',
+                      xs: 'column'
+                  }}
+                  justifyContent={{
+                      md: 'inherit',
+                      xs: 'center'
+                  }}
+                  columns={12}
+                  columnGap={{
+                      md: 2,
+                      xs: 0
+                  }} pr={0}>
                 <ContactsList/>
                 <Form/>
             </Grid>

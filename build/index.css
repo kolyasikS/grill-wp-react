@@ -1117,6 +1117,9 @@
   background: #fff;
 }
 
+.footer-module--wyB7B {
+  overflow: visible;
+}
 .footer-module--wyB7B svg {
   width: 90px;
   height: 90px;
@@ -2384,7 +2387,7 @@
 }
 
 .introduction-module--Clcc8 {
-  color: #181B3F;
+  color: "#181B3F";
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -2401,6 +2404,41 @@
   position: absolute;
   left: 220px;
   bottom: -15px;
+}
+
+@media screen and (max-width: 1250px) {
+  .introduction-module--Drsr1::before {
+    background-position: center 80px;
+  }
+  .introduction-module--Clcc8 {
+    font-size: 48px;
+  }
+  .introduction-module--gz2zW {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .introduction-module--Drsr1::before {
+    background-position: -650px 80px;
+  }
+  .introduction-module--QKBaM {
+    height: 100%;
+    padding-top: 180px;
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .introduction-module--Drsr1::before {
+    background-position: center 80px;
+  }
+  .introduction-module--QKBaM {
+    padding-left: 0;
+  }
+  .introduction-module--Clcc8 {
+    font-size: 32px;
+  }
 }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/contacts/contactsWindow/styles/contactItem.module.scss ***!
@@ -2447,6 +2485,24 @@
 .contactItem-module--B1j6M circle {
   z-index: 0;
 }
+
+@media screen and (max-width: 600px) {
+  .contactItem-module--dx_JR {
+    font-size: 14px;
+  }
+  .contactItem-module--yYwL8 {
+    font-size: 16px;
+  }
+  .contactItem-module--Rw2Qx svg:nth-child(2) {
+    width: 32px;
+    height: 32px;
+  }
+  .contactItem-module--B1j6M {
+    width: 56px;
+    height: 56px;
+    left: -13px;
+  }
+}
 /*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/contacts/contactsWindow/styles/form.module.scss ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************/
@@ -2458,7 +2514,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  padding: 64px 80px;
+  padding: 64px 40px;
 }
 .form-module--smJEx::before {
   content: "";
@@ -2471,11 +2527,22 @@
   z-index: 0;
 }
 
+.form-module--EN3WZ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px 40px;
+  width: 100%;
+}
+
 .form-module--WGkSO {
   color: #BC1922;
   font-size: 48px;
   font-weight: 700;
-  line-height: 130%;
+  line-height: 120%;
   margin-bottom: 8px;
   z-index: 1;
   width: 100%;
@@ -2503,6 +2570,66 @@
   bottom: 10px;
   left: 3px;
 }
+
+@media screen and (max-width: 1300px) {
+  .form-module--smJEx {
+    padding: 36px 40px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .form-module--smJEx {
+    padding: 24px 40px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .form-module--smJEx {
+    padding: 24px 30px;
+  }
+  .form-module--smJEx::before {
+    width: 54.1666666667%;
+  }
+  .form-module--EN3WZ {
+    padding: 24px 0px 24px 70px;
+  }
+  .form-module--WGkSO {
+    font-size: 40px;
+  }
+  .form-module--Sp7JH {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .form-module--smJEx {
+    z-index: 10;
+    padding: 40px 10px;
+    width: 100%;
+    position: relative;
+  }
+  .form-module--smJEx .form-module--EN3WZ {
+    padding: 24px 40px;
+  }
+  .form-module--smJEx::before {
+    width: 100%;
+    height: calc(100% + 120px);
+    position: absolute;
+    bottom: -120px;
+    top: inherit;
+  }
+}
+@media screen and (max-width: 600px) {
+  .form-module--smJEx {
+    padding: 40px 0px;
+  }
+  .form-module--EN3WZ {
+    padding: 24px 30px;
+  }
+  .form-module--WGkSO {
+    font-size: 32px;
+  }
+  .form-module--Sp7JH {
+    font-size: 16px;
+  }
+}
 /*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/contacts/contactsWindow/styles/contactsWindow.module.scss ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************/
@@ -2514,6 +2641,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 
 .contactsWindow-module--funbH, .contactsWindow-module--JvvlB {
@@ -2588,6 +2716,7 @@
   height: 100%;
   padding-top: 14vw;
   padding-left: 50px;
+  z-index: 10;
 }
 
 .contactsWindow-module--rUr_e {
@@ -2605,6 +2734,7 @@
   border-radius: 24px;
   height: 900px;
   overflow: hidden;
+  z-index: 10;
 }
 
 @media screen and (max-width: 1800px) {
@@ -2625,11 +2755,40 @@
     left: -300px;
   }
 }
+@media screen and (max-width: 1300px) {
+  .contactsWindow-module--JvvlB::after, .contactsWindow-module--funbH::after {
+    display: none;
+  }
+  .contactsWindow-module--hX034 {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contactsWindow-module--uiDtp {
+    max-height: 1500px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contactsWindow-module--hX034 {
+    height: 1550px;
+    position: relative;
+  }
+  .contactsWindow-module--JvvlB, .contactsWindow-module--funbH {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contactsWindow-module--hX034 {
+    width: 100%;
+  }
+}
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/contacts/areas/styles/areas.module.scss ***!
   \**************************************************************************************************************************************************************************************************************************************************************************/
 .areas-module--Ip_LX {
   position: relative;
+  background: #fff;
+  z-index: 0;
 }
 
 .areas-module--gpbDH {
@@ -2648,6 +2807,12 @@
 }
 
 .areas-module--CzWMD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
   padding-top: 130px;
   padding-bottom: 200px;
 }
@@ -2688,8 +2853,8 @@
 
 .areas-module--HnbJW {
   position: absolute;
-  left: 182px;
-  bottom: 160px;
+  left: 180px;
+  bottom: 165px;
 }
 
 .areas-module--yffnP {
@@ -2698,40 +2863,66 @@
   bottom: 310px;
 }
 
-.areas-module--NDGge {
+.areas-module--ARtMX {
   position: absolute;
-  top: 390px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.areas-module--NDGge {
+  position: relative;
+  top: 410px;
   left: 200px;
 }
 
 .areas-module--UKpne {
-  position: absolute;
-  top: 400px;
+  position: relative;
+  top: 390px;
   left: 315px;
 }
 
 .areas-module--yf1kA {
-  position: absolute;
-  top: 325px;
+  position: relative;
+  top: 290px;
   left: 585px;
 }
 
 .areas-module--b5uWj {
-  position: absolute;
-  top: 520px;
+  position: relative;
+  top: 470px;
   left: 650px;
 }
 
 .areas-module--yPo1O {
-  position: absolute;
-  top: 520px;
+  position: relative;
+  top: 460px;
   left: 385px;
 }
 
 .areas-module--mJG4k {
-  position: absolute;
-  top: 645px;
+  position: relative;
+  top: 555px;
   left: 535px;
+}
+
+.areas-module--jVHBl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.areas-module--oIDMV {
+  color: #181B3F;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: left;
+  width: 100%;
+  padding: 40px 0 24px;
 }
 
 @media screen and (max-width: 1700px) {
@@ -2765,14 +2956,230 @@
     left: 435px;
   }
 }
-/*
-@media screen and (max-width: 1920px) {
-    .section_map_overlay {
-        position: absolute;
-        left: 185px;
-        bottom: 160px;
-    }
-}*/
+@media screen and (max-width: 1536px) {
+  .areas-module--Ip_LX {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+  .areas-module--CzWMD {
+    padding: 80px 0;
+  }
+  .areas-module--Hr2iT {
+    position: relative;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .areas-module--AJ49g {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+  }
+  .areas-module--AJ49g img {
+    position: relative;
+    left: -70px;
+    height: 100%;
+    min-width: 100%;
+  }
+  .areas-module--HnbJW {
+    position: absolute;
+    top: 185px;
+    left: 560px;
+  }
+  .areas-module--yffnP {
+    position: absolute;
+    top: 355px;
+    left: 608px;
+  }
+  .areas-module--CzWMD {
+    padding-top: 80px;
+    align-items: center;
+  }
+  .areas-module--gpbDH {
+    text-align: center;
+    width: 100%;
+  }
+  .areas-module--x8UVe {
+    text-align: center;
+    width: 100%;
+  }
+  .areas-module--jVHBl {
+    max-height: 200px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .areas-module--oIDMV {
+    padding-left: 26%;
+  }
+  .areas-module--ARtMX {
+    top: 0px;
+    left: 480px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .areas-module--AJ49g img {
+    left: -385px;
+  }
+  .areas-module--HnbJW {
+    position: absolute;
+    top: 185px;
+    left: 245px;
+  }
+  .areas-module--yffnP {
+    position: absolute;
+    top: 355px;
+    left: 295px;
+  }
+  .areas-module--ARtMX {
+    top: 0px;
+    left: 170px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .areas-module--AJ49g img {
+    left: -600px;
+  }
+  .areas-module--HnbJW {
+    top: 185px;
+    left: 30px;
+  }
+  .areas-module--yffnP {
+    top: 355px;
+    left: 80px;
+  }
+  .areas-module--ARtMX {
+    top: 0px;
+    left: -50px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .areas-module--AJ49g .areas-module--AKXNd {
+    position: relative;
+    max-height: 550px;
+  }
+  .areas-module--AJ49g img {
+    top: -190px;
+    left: -485px;
+    scale: 0.6;
+  }
+  .areas-module--HnbJW {
+    scale: 0.6;
+    top: -10px;
+    left: 60px;
+  }
+  .areas-module--yffnP {
+    scale: 0.6;
+    top: 157px;
+    left: 108px;
+  }
+  .areas-module--jVHBl {
+    max-width: 100%;
+  }
+  .areas-module--oIDMV {
+    padding-left: 15px;
+  }
+  .areas-module--ARtMX {
+    top: -32px;
+    left: 140px;
+    scale: 0.6;
+  }
+}
+@media screen and (max-width: 670px) {
+  .areas-module--AJ49g img {
+    top: -190px;
+    left: -610px;
+  }
+  .areas-module--HnbJW {
+    top: -10px;
+    left: -65px;
+  }
+  .areas-module--yffnP {
+    top: 157px;
+    left: -17px;
+  }
+  .areas-module--gpbDH {
+    font-size: 32px;
+  }
+  .areas-module--x8UVe {
+    font-size: 16px;
+  }
+  .areas-module--ARtMX {
+    top: -32px;
+    left: 15px;
+    scale: 0.6;
+  }
+}
+@media screen and (max-width: 600px) {
+  .areas-module--T7L9g svg {
+    position: relative;
+    top: 0px;
+    width: 12px;
+    height: 12px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .areas-module--CzWMD {
+    padding: 40px 0;
+  }
+  .areas-module--AJ49g {
+    align-items: flex-start;
+    max-height: 405px;
+  }
+  .areas-module--AJ49g img {
+    top: -255px;
+    left: -620px;
+    scale: 0.45;
+  }
+  .areas-module--HnbJW {
+    scale: 0.45;
+    top: -75px;
+    left: -105px;
+  }
+  .areas-module--yffnP {
+    scale: 0.45;
+    top: 90px;
+    left: -57px;
+  }
+  .areas-module--jVHBl {
+    max-height: 160px;
+  }
+  .areas-module--jVHBl:nth-child(7) {
+    max-height: 130px;
+  }
+  .areas-module--ARtMX {
+    top: -37px;
+    left: 35px;
+    scale: 0.45;
+  }
+}
+@media screen and (max-width: 450px) {
+  .areas-module--AJ49g img {
+    left: -700px;
+  }
+  .areas-module--HnbJW {
+    top: -75px;
+    left: -185px;
+  }
+  .areas-module--yffnP {
+    top: 90px;
+    left: -137px;
+  }
+  .areas-module--ARtMX {
+    left: -45px;
+  }
+}
 /*!***************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./src/assets/fonts/stylesheet.css ***!
   \***************************************************************************************************************/

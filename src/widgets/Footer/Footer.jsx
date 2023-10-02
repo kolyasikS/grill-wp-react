@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box, Divider} from "@mui/material";
 import styles from './footer.module.scss';
-import {ReactComponent as Logo} from '@assets/svgs/homePage/logo.svg'
+import Logo from "@shared/logo/Logo";
 const Footer = () => {
     return (
         <footer className={styles.footer}>

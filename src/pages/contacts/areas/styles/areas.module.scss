@@ -2,6 +2,8 @@
 
 .section {
     position: relative;
+    background: #fff;
+    z-index: 0;
 }
 .section_title {
     @include sectionTitle(#BC1922, 64px, 700);
@@ -14,6 +16,9 @@
     line-height: 130%;
 }
 .section_wrapper {
+    @include flexCenter(true);
+    align-items: flex-start;
+    width: 100%;
     padding-top: 130px;
     padding-bottom: 200px;
 }
@@ -54,8 +59,8 @@
 
 .section_map_overlay {
     position: absolute;
-    left: 182px;
-    bottom: 160px;
+    left: 180px;
+    bottom: 165px;
 }
 
 .section_map_stroke {
@@ -64,35 +69,55 @@
     bottom: 310px;
 }
 
-.section_map_ventura {
+.section_map__areas {
     position: absolute;
-    top: 390px;
+    width: fit-content;
+}
+.section_map_ventura {
+    position: relative;
+    top: 410px;
     left: 200px;
 }
 .section_map_losAngeles {
-    position: absolute;
-    top: 400px;
+    position: relative;
+    top: 390px;
     left: 315px;
 }
 .section_map_sanBernardino {
-    position: absolute;
-    top: 325px;
+    position: relative;
+    top: 290px;
     left: 585px;
 }
 .section_map_riverside {
-    position: absolute;
-    top: 520px;
+    position: relative;
+    top: 470px;
     left: 650px;
 }
 .section_map_orange {
-    position: absolute;
-    top: 520px;
+    position: relative;
+    top: 460px;
     left: 385px;
 }
 .section_map_sanDiego {
-    position: absolute;
-    top: 645px;
+    position: relative;
+    top: 555px;
     left: 535px;
+}
+.section_list {
+    @include flexCenter(true);
+    align-items: flex-start;
+    width: 100%;
+}
+.section_list__title {
+    color: #181B3F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: left;
+    width: 100%;
+
+    padding: 40px 0 24px;
 }
 
 @media screen and (max-width: 1700px) {
@@ -132,11 +157,251 @@
     }
 }
 
-/*
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1536px) {
+    .section {
+        @include flexCenter(true);
+        flex-flow: column-reverse;
+    }
+    .section_wrapper {
+        padding: 80px 0;
+    }
+    .section_map_wrapper {
+        position: relative;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .section_map {
+        @include flexCenter();
+        justify-content: flex-start;
+        width: 100%;
+        height: 100%;
+        img {
+            position: relative;
+            left: -70px;
+            height: 100%;
+            min-width: 100%;
+        }
+    }
     .section_map_overlay {
         position: absolute;
-        left: 185px;
-        bottom: 160px;
+        top: 185px;
+        left: 560px;
     }
-}*/
+    .section_map_stroke {
+        position: absolute;
+        top: 355px;
+        left: 608px;
+    }
+    .section_wrapper {
+        padding-top: 80px;
+        align-items: center;
+    }
+    .section_title {
+        text-align: center;
+        width: 100%;
+    }
+    .section_subtitle {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section_list {
+        max-height: 200px;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .section_list__title {
+        padding-left: 26%;
+    }
+
+    .section_map__areas {
+        top: 0px;
+        left: 480px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .section_map {
+        img {
+            left: -385px;
+        }
+    }
+    .section_map_overlay {
+        position: absolute;
+        top: 185px;
+        left: 245px;
+    }
+    .section_map_stroke {
+        position: absolute;
+        top: 355px;
+        left: 295px;
+    }
+    .section_map__areas {
+        top: 0px;
+        left: 170px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section_map {
+        img {
+            left: -600px;
+        }
+    }
+    .section_map_overlay {
+        top: 185px;
+        left: 30px;
+    }
+    .section_map_stroke {
+        top: 355px;
+        left: 80px;
+    }
+
+    .section_map__areas {
+        top: 0px;
+        left: -50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section_map {
+        .map__wrapper {
+            position: relative;
+            max-height: 550px;
+        }
+        img {
+            top: -190px;
+            left: -485px;
+            scale: 0.6;
+        }
+    }
+
+    .section_map_overlay {
+        scale: 0.6;
+        top: -10px;
+        left: 60px;
+    }
+    .section_map_stroke {
+        scale: 0.6;
+        top: 157px;
+        left: 108px;
+    }
+
+    .section_list {
+        max-width: 100%;
+    }
+    .section_list__title {
+        padding-left: 15px;
+    }
+
+    .section_map__areas {
+        top: -32px;
+        left: 140px;
+        scale: 0.6;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .section_map {
+        img {
+            top: -190px;
+            left: -610px;
+        }
+    }
+
+    .section_map_overlay {
+        top: -10px;
+        left: -65px;
+    }
+    .section_map_stroke {
+        top: 157px;
+        left: -17px;
+    }
+
+    .section_title {
+        font-size: 32px;
+    }
+    .section_subtitle {
+        font-size: 16px;
+    }
+    .section_map__areas {
+        top: -32px;
+        left: 15px;
+        scale: 0.6;
+    }
+}
+@media screen and (max-width: 600px) {
+    .section_list__icon {
+        svg {
+            position: relative;
+            top: 0px;
+            width: 12px;
+            height: 12px;
+        }
+    }
+}
+@media screen and (max-width: 550px) {
+    .section_wrapper {
+        padding: 40px 0;
+    }
+    .section_map {
+        align-items: flex-start;
+        max-height: 405px;
+        img {
+            top: -255px;
+            left: -620px;
+            scale: 0.45;
+        }
+    }
+
+    .section_map_overlay {
+        scale: 0.45;
+        top: -75px;
+        left: -105px;
+    }
+    .section_map_stroke {
+        scale: 0.45;
+        top: 90px;
+        left: -57px;
+    }
+
+    .section_list {
+        max-height: 160px;
+
+        &:nth-child(7) {
+            max-height: 130px;
+        }
+    }
+    .section_map__areas {
+        top: -37px;
+        left: 35px;
+        scale: 0.45;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section_map {
+        img {
+            left: -700px;
+        }
+    }
+
+    .section_map_overlay {
+        top: -75px;
+        left: -185px;
+    }
+    .section_map_stroke {
+        top: 90px;
+        left: -137px;
+    }
+
+    .section_map__areas {
+        left: -45px;
+    }
+}

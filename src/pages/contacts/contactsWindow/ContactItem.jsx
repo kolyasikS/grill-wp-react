@@ -28,7 +28,7 @@ const ContactItem = ({title, data, linksList, icon}) => {
                 columns={12}
                 className={styles.item}
             >
-                <Grid xl={2} maxWidth={40}>
+                <Grid xl={2} sm={10} xs={0.1} maxWidth={40}>
                     <div className={styles.item_icon__wrapper}>
                         <svg className={styles.item_icon__bg} xmlns="http://www.w3.org/2000/svg" width="72" height="73" viewBox="0 0 72 73" fill="none">
                             <circle cx="36" cy="36.5" r="36" fill="#2E315B"/>
@@ -36,7 +36,7 @@ const ContactItem = ({title, data, linksList, icon}) => {
                         {icon}
                     </div>
                 </Grid>
-                <Grid xl={10}>
+                <Grid xl={10} sm={10} xs={12}>
                     <h4 className={styles.item_title}>{title}</h4>
                     {data.map
                         ? data.map(text => <p className={styles.item_content}>{text}</p>)

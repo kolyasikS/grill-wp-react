@@ -4,9 +4,9 @@ import styles from './styles/header.module.scss';
 
 import {ReactComponent as TelegramIcon} from '@assets/svgs/homePage/telegramHeader.svg';
 import {ReactComponent as ViberIcon} from '@assets/svgs/homePage/viberHeader.svg';
-import {ReactComponent as Logo} from '@assets/svgs/homePage/logo.svg'
 import HeaderLink from "./HeaderLink";
 import {ClassicButton, DarkRedCBtn, LightRedCBtn} from "@shared/buttons/api";
+import Logo from "@shared/logo/Logo";
 const Header = () => {
 
     return (
