@@ -892,6 +892,10 @@ video {
   position: relative;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .my-\[40px\] {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -972,6 +976,11 @@ video {
 
 .bg-\[\#0000001c\] {
   background-color: #0000001c;
+}
+
+.bg-\[\#0F1235\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 18 53 / var(--tw-bg-opacity));
 }
 
 .p-4 {

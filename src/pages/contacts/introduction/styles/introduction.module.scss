@@ -62,9 +62,10 @@
 }
 
 @media screen and (max-width: 900px) {
+
     .section {
         &::before {
-            background-position: center 80px;
+            background-position: -800px 80px;
         }
     }
     .section_wrapper {
@@ -72,5 +73,38 @@
     }
     .section_title {
         font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .section {
+        height: 860px;
+        &::before {
+            background: url("@assets/images/contactsPage/contacts-intro-mobile.png");
+             background-repeat: no-repeat;
+            background-position: right -100px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section {
+        height: 800px;
+        &::before {
+            background: url("@assets/images/contactsPage/contacts-intro-mobile-550.png");
+            background-repeat: no-repeat;
+            background-position: right 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section {
+        height: 580px;
+        &::before {
+            background: url("@assets/images/contactsPage/contacts-intro-mobile-375.png");
+            background-repeat: no-repeat;
+            background-position: right 100px;
+        }
     }
 }
