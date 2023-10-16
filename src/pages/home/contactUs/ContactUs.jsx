@@ -8,11 +8,11 @@ import {UnfilledCBtn} from "../../../shared/buttons/api";
 import styles from './styles/contactUs.module.scss';
 import {CallUsList} from "@shared/lists/api";
 
-const ContactUs = () => {
+const ContactUs = ({pt}) => {
     const isMobileSize = useMediaQuery('(max-width: 600px)');
 
     return (
-        <section className={styles.section}>
+        <section className={styles.section} style={{paddingTop: pt}}>
             <ClassicContainer>
                 <div className={'flex flex-col gap-12 items-start'}>
                     <div>
@@ -29,9 +29,9 @@ const ContactUs = () => {
                                 <p>in any convenient way</p>
                                 <div className={'flex items-center gap-10 mb-2'}>
                                     <p style={{
-                                       fontWeight: 600,
-                                       fontSize: 20,
-                                       lineHeight: '120%'
+                                        fontWeight: 600,
+                                        fontSize: 20,
+                                        lineHeight: '120%'
                                     }} >(949) 910 6556</p>
                                     <Stack direction={'row'} spacing={0}
                                            sx={{
@@ -69,7 +69,7 @@ const ContactUs = () => {
                             </div>
                             <div>
                                 <h3>We come and clean your grill!</h3>
-                                <p>give you a free estimate and schedule an appointment</p>
+                                <p>Your grill is sparkling, your food tastes healthy.</p>
                             </div>
                         </div>
                     </Stack>

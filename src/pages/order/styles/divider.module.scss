@@ -1,0 +1,45 @@
+@import "src/assets/styles/mixins";
+
+.divider {
+    @include flexCenter();
+    margin: 95px 0;
+    width: 100%;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.10);
+    }
+}
+
+.divider__inner {
+    @include flexCenter();
+    background: #fff;
+    z-index: 10;
+}
+
+.divider__icon {
+    @include flexCenter();
+    margin-left: 32px;
+    border-radius: 50%;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    background: #F4F4F4;
+    outline: 2px solid #F4F4F4;
+    outline-offset: 4px;
+    img {
+        position: relative;
+        top: -2px;
+    }
+}
+
+.divider__text {
+    @include sectionTitle(#BC1922, 32px, 400);
+    line-height: 120%;
+    margin: 0 32px;
+}
+

@@ -1,6 +1,7 @@
 import {createBrowserRouter} from "react-router-dom";
 import HomePage from "src/pages/home/HomePage";
 import Contacts from "src/pages/contacts/Contacts";
+import OrderPage from "src/pages/order/OrderPage";
 
 const router = createBrowserRouter([
     {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
     {
         path: '/contacts',
         element: <Contacts/>
+    },
+    {
+        path: '/order',
+        element: <OrderPage/>
     },
     {
         path: '*',

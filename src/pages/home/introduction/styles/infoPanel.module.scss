@@ -1,3 +1,4 @@
+
 .infoPanel {
     position: absolute;
     border-radius: 16px;
@@ -28,20 +29,16 @@
         color: #181B3F;
         font-style: normal;
         font-weight: 600;
-        line-height: 120%;
+        line-height: 100%;
     }
-    &:nth-child(1), &:nth-child(5) {
-        p {
-            font-size: 16px;
-        }
-    }
+}
+.infoPanelItem__text {
+    font-size: 16px;
+}
 
-    &:nth-child(3) {
-        p {
-            font-size: 24px;
-        }
-    }
-
+.infoPanelItem__phone {
+    font-size: 24px;
+    margin-bottom: 16px;
 }
 
 @media screen and (max-width: 1200px) {

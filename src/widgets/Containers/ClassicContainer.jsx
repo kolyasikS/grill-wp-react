@@ -1,7 +1,8 @@
 import React from 'react';
 import {Container} from "@mui/material";
 
-const ClassicContainer = ({children, mobileScreenWidth = '95%', xl, lg = '1300px'}) => {
+const ClassicContainer = ({children, mobileScreenWidth = '95%',
+                              sx, xl, lg = '1300px'}) => {
     return (
         <Container maxWidth={false}
                    className={'max-w-2xl'}
@@ -10,10 +11,11 @@ const ClassicContainer = ({children, mobileScreenWidth = '95%', xl, lg = '1300px
                            xl,
                            lg,
                            xs: mobileScreenWidth
-                       }
+                       },
+                       ...sx
                    }}
         >
-                {children}
+            {children}
         </Container>
     );
 };

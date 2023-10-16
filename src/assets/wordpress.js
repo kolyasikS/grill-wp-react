@@ -381,3 +381,31 @@ export const ourAreasSD = [
         title: 'North Country'
     },
 ]
+
+export const orderSelectedItems = [
+    {
+        id: uuid.v4(),
+        title: 'No matter',
+        value: '0',
+    },
+    {
+        id: uuid.v4(),
+        title: 'Email',
+        value: '1',
+    },
+    {
+        id: uuid.v4(),
+        title: 'Phone',
+        value: '2',
+    },
+    {
+        id: uuid.v4(),
+        title: 'Text Message',
+        value: '3',
+    },
+    {
+        id: uuid.v4(),
+        title: 'Whatsapp',
+        value: '4',
+    }
+];

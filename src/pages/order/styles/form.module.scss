@@ -1,0 +1,138 @@
+@import "src/assets/styles/mixins";
+
+.form {
+    @include flexCenter(true);
+    width: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 9999;
+    border-radius: 24px;
+}
+
+.form__inner {
+    padding: 90px 65px 280px;
+    @include flexCenter(true);
+}
+
+.form__title {
+    @include sectionTitle(#BC2922, 48px);
+    margin-bottom: 10px;
+}
+
+.form__subtitle {
+    @include sectionTitle(#18183F, 32px, 400);
+}
+
+.form__block {
+    width: 100%;
+    max-width: 800px;
+}
+
+.form__block__feedback {
+    max-width: 100%;
+    background: #F6F6F6;
+    padding: 75px 185px 100px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.form__block__feedback__title {
+    @include sectionTitle(#BC1922, 32px);
+    font-family: Inter, sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.form__block__feedback__infoItems {
+    @include flexCenter();
+    justify-content: space-between;
+}
+
+.form__input_wrapper {
+    position: relative;
+    width: 100%;
+    @include flexCenter();
+}
+
+.form__input_icon {
+    position: absolute;
+    left: 3px;
+}
+
+.form__select_title {
+    @include sectionTitle(#18183F, 20px, 400);
+    font-family: Inter, sans-serif;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+%uploadArea_hover {
+    //border: 3px dashed #000;
+    &::before {
+        opacity: 0.1;
+    }
+    &::after {
+        outline: 3px dashed #000;
+    }
+}
+
+.form__uploadArea {
+    @include flexCenter(true);
+    width: 100%;
+    padding: 32px;
+    gap: 8px;
+    user-select: none;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: rgba(0, 0, 0, 0.05);
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 24px;
+
+    &::after, &::before {
+        content: '';
+        transition: all 0.2s;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+    }
+    &::after {
+        outline: 3px dashed transparent;
+    }
+    &::before {
+        background: black;
+        opacity: 0;
+        z-index: 1;
+        display: block;
+    }
+    &:hover {
+        @extend %uploadArea_hover;
+    }
+}
+
+.form__uploadArea_hover {
+    &::before {
+        opacity: 0.1;
+    }
+    &::after {
+        outline: 3px dashed #000;
+    }
+}
+
+
+.form__uploadArea__title {
+    @include sectionTitle(#000, 24px, 400);
+    font-family: Inter, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.form__uploadArea__text {
+    color: #747474;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
