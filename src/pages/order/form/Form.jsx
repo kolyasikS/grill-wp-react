@@ -61,7 +61,6 @@ const Form = () => {
         if (selectedFiles.length === 0) {
             return;
         }
-        console.log(selectedFiles);
         updateFilesList(selectedFiles);
     }
 
@@ -89,7 +88,6 @@ const Form = () => {
         setFiles(prevState => prevState.filter(file => file.name !== filename));
 
     }
-    console.log(files);
     return (
         <form className={styles.form}>
             <div className={styles.form__inner}>
@@ -97,12 +95,12 @@ const Form = () => {
                 <h3 className={styles.form__subtitle}>and we will reach out to you shortly</h3>
                 <Divider text={'Your Contact Details'} img={contactDetailsIcon}/>
                 <div className={styles.form__block}>
-                    <div className={'mb-14 flex flex-col items-center gap-8'}>
+                    <div className={styles.form__contacts_block}>
                         <div className={styles.form__input_wrapper}>
                             <img className={styles.form__input_icon} src={zipCodeIcon} alt="" width={24} height={24}/>
                             <ClassicInput>Name</ClassicInput>
                         </div>
-                        <div className={'flex gap-12 w-full'}>
+                        <div className={styles.form__inputs_block}>
                             <div className={styles.form__input_wrapper}>
                                 <img className={styles.form__input_icon} src={zipCodeIcon} alt="" width={24} height={24}/>
                                 <ClassicInput>Phone</ClassicInput>
@@ -112,7 +110,7 @@ const Form = () => {
                                 <ClassicInput>Email</ClassicInput>
                             </div>
                         </div>
-                        <div className={'flex gap-12 w-full'}>
+                        <div className={styles.form__inputs_block}>
                             <div className={styles.form__input_wrapper}>
                                 <img className={styles.form__input_icon} src={zipCodeIcon} alt="" width={24} height={24}/>
                                 <ClassicInput>Address</ClassicInput>
@@ -130,7 +128,7 @@ const Form = () => {
                 </div>
                 <Divider text={'Tell us about your grill'} img={tellUsIcon}/>
                 <div className={styles.form__block}>
-                    <div className={'flex flex-col gap-9 mb-28'}>
+                    <div className={styles.form__grill_block}>
                         <ClassicInput disablePx={true}>Model of Grill</ClassicInput>
                         <ClassicInput disablePx={true}>Approx, time since the last cleaning</ClassicInput>
                         <ClassicTextArea rows={8}>Any Known Issues / Additional info</ClassicTextArea>

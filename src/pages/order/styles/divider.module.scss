@@ -43,3 +43,13 @@
     margin: 0 32px;
 }
 
+@media screen and (max-width: 900px) {
+    .divider__text {
+        font-size: 20px;
+    }
+
+    .divider {
+        @include flexCenter();
+        margin: 56px 0 24px;
+    }
+}

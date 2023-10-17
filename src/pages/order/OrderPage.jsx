@@ -12,8 +12,8 @@ const OrderPage = () => {
             <ClassicContainer xl={'1536px'} lg={'1400px'} mobileScreenWidth={'100%'}>
                 <Form/>
             </ClassicContainer>
-            <div className={styles.contactUs__section}>
-                <ContactUsSection pt={200}/>
+            <div className={styles.contactUs__section_wrapper}>
+                <ContactUsSection className={styles.contactUs__section} />
             </div>
         </main>
     );

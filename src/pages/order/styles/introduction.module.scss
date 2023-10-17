@@ -24,3 +24,35 @@
     padding: 200px 0 150px;
     z-index: 1;
 }
+
+@media screen and (max-width: 900px) {
+    .order__introduction {
+        &::before {
+            background: url('@assets/images/orderPage/order-bg-mob.png');
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center 100px;
+        }
+    }
+
+    .order__introduction_title {
+        font-size: 32px;
+        padding: 200px 0 270px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .order__introduction_title {
+        font-size: 32px;
+        padding: 200px 0 150px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .order__introduction_title {
+        font-size: 32px;
+        padding: 200px 0 65px;
+    }
+}

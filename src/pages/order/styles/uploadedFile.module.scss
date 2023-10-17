@@ -83,3 +83,16 @@
         transform: rotate(-45deg);
     }
 }
+
+@media screen and (max-width: 900px) {
+    .file__info {
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .file__image {
+        max-width: 64px;
+        height: 64px;
+    }
+}

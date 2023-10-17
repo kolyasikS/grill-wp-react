@@ -30224,14 +30224,11 @@ __webpack_require__.r(__webpack_exports__);
 
 const ContactUs = _ref => {
   let {
-    pt
+    className
   } = _ref;
   const isMobileSize = (0,_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"])('(max-width: 600px)');
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: _styles_contactUs_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].section,
-    style: {
-      paddingTop: pt
-    }
+    className: `${_styles_contactUs_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].section} ${className}`
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_widgets_api__WEBPACK_IMPORTED_MODULE_1__.ClassicContainer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: 'flex flex-col gap-12 items-start'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
@@ -31846,9 +31843,9 @@ const OrderPage = () => {
     lg: '1400px',
     mobileScreenWidth: '100%'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_form_Form__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _styles_contact_us_section_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].contactUs__section
+    className: _styles_contact_us_section_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].contactUs__section_wrapper
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_home_api__WEBPACK_IMPORTED_MODULE_4__.ContactUsSection, {
-    pt: 200
+    className: _styles_contact_us_section_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].contactUs__section
   })));
 };
 /* harmony default export */ __webpack_exports__["default"] = (OrderPage);
@@ -31972,7 +31969,6 @@ const Form = () => {
     if (selectedFiles.length === 0) {
       return;
     }
-    console.log(selectedFiles);
     updateFilesList(selectedFiles);
   };
   const onDragOver = e => {
@@ -31996,7 +31992,6 @@ const Form = () => {
   const removeFile = filename => {
     setFiles(prevState => prevState.filter(file => file.name !== filename));
   };
-  console.log(files);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
     className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -32011,7 +32006,7 @@ const Form = () => {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form__block
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: 'mb-14 flex flex-col items-center gap-8'
+    className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form__contacts_block
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form__input_wrapper
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
@@ -32021,7 +32016,7 @@ const Form = () => {
     width: 24,
     height: 24
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_shared_inputs_api__WEBPACK_IMPORTED_MODULE_6__.ClassicInput, null, "Name")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: 'flex gap-12 w-full'
+    className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form__inputs_block
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form__input_wrapper
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
@@ -32039,7 +32034,7 @@ const Form = () => {
     width: 24,
     height: 24
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_shared_inputs_api__WEBPACK_IMPORTED_MODULE_6__.ClassicInput, null, "Email"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: 'flex gap-12 w-full'
+    className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form__inputs_block
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form__input_wrapper
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
@@ -32067,7 +32062,7 @@ const Form = () => {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form__block
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: 'flex flex-col gap-9 mb-28'
+    className: _styles_form_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].form__grill_block
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_shared_inputs_api__WEBPACK_IMPORTED_MODULE_6__.ClassicInput, {
     disablePx: true
   }, "Model of Grill"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_shared_inputs_api__WEBPACK_IMPORTED_MODULE_6__.ClassicInput, {
@@ -32170,12 +32165,18 @@ const Select = _ref => {
     value: value,
     onChange: e => setValue(e.target.value)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    direction: 'row',
+    direction: {
+      md: 'row',
+      xs: 'column'
+    },
     sx: {
       width: '100%'
     },
     justifyContent: 'center',
-    spacing: 7
+    spacing: {
+      md: 7,
+      xs: 1
+    }
   }, _assets_wordpress__WEBPACK_IMPORTED_MODULE_1__.orderSelectedItems.map((item, ind) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__["default"], {
     key: ind,
     value: item.value,
@@ -34409,7 +34410,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
-/* harmony default export */ __webpack_exports__["default"] = ({"contactUs__section":"contact-us-section-module--JDF7T"});
+/* harmony default export */ __webpack_exports__["default"] = ({"contactUs__section_wrapper":"contact-us-section-module--WVs4U","contactUs__section":"contact-us-section-module--JDF7T"});
 
 /***/ }),
 
@@ -34435,7 +34436,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
-/* harmony default export */ __webpack_exports__["default"] = ({"form":"form-module--mXVHN","form__inner":"form-module--tX5in","form__title":"form-module--btaEr","form__subtitle":"form-module--fcVSj","form__block":"form-module--ERZo9","form__block__feedback":"form-module--mJ3UI","form__block__feedback__title":"form-module--GD0QQ","form__block__feedback__infoItems":"form-module--_TwKP","form__input_wrapper":"form-module--_ezIZ","form__input_icon":"form-module--oDyr8","form__select_title":"form-module--Ne29U","form__uploadArea":"form-module--nINbQ","form__uploadArea_hover":"form-module--KqtWV","form__uploadArea__title":"form-module--fOSLs","form__uploadArea__text":"form-module--HJ6kf"});
+/* harmony default export */ __webpack_exports__["default"] = ({"form":"form-module--mXVHN","form__inner":"form-module--tX5in","form__title":"form-module--btaEr","form__subtitle":"form-module--fcVSj","form__block":"form-module--ERZo9","form__inputs_block":"form-module--vhik4","form__grill_block":"form-module--uVll8","form__contacts_block":"form-module--Vz8QJ","form__block__feedback":"form-module--mJ3UI","form__block__feedback__title":"form-module--GD0QQ","form__block__feedback__infoItems":"form-module--_TwKP","form__input_wrapper":"form-module--_ezIZ","form__input_icon":"form-module--oDyr8","form__select_title":"form-module--Ne29U","form__uploadArea":"form-module--nINbQ","form__uploadArea_hover":"form-module--KqtWV","form__uploadArea__title":"form-module--fOSLs","form__uploadArea__text":"form-module--HJ6kf"});
 
 /***/ }),
 

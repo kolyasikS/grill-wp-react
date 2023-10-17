@@ -12,6 +12,7 @@
 .form__inner {
     padding: 90px 65px 280px;
     @include flexCenter(true);
+    width: 100%;
 }
 
 .form__title {
@@ -26,6 +27,27 @@
 .form__block {
     width: 100%;
     max-width: 800px;
+}
+
+.form__inputs_block {
+    display: flex;
+    gap: 48px;
+    width: 100%;
+}
+
+.form__grill_block {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-bottom: 112px;
+}
+
+.form__contacts_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    margin-bottom: 56px;
 }
 
 .form__block__feedback {
@@ -120,7 +142,6 @@
     }
 }
 
-
 .form__uploadArea__title {
     @include sectionTitle(#000, 24px, 400);
     font-family: Inter, sans-serif;
@@ -135,4 +156,60 @@
     font-family: Inter, sans-serif;
     font-size: 14px;
     font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+    .form__title {
+        font-size: 32px;
+    }
+
+    .form__subtitle {
+        font-size: 16px;
+    }
+
+    .form__select_title {
+        font-size: 16px;
+    }
+
+    .form__uploadArea__title {
+        font-size: 16px;
+    }
+
+    .form__block__feedback__title {
+        font-size: 20px;
+    }
+
+    .form__inputs_block {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .form__grill_block {
+        margin-bottom: 32px;
+        gap: 24px;
+    }
+
+    .form__contacts_block {
+        gap: 24px;
+    }
+
+    .form__inner {
+        padding: 24px 16px;
+        @include flexCenter(true);
+        width: 100%;
+    }
+
+    .form__block__feedback__infoItems {
+        @include flexCenter();
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .form__block__feedback {
+        padding: 24px 16px;
+    }
+
+    .form {
+        top: 56px;
+    }
 }

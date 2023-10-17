@@ -8,11 +8,11 @@ import {UnfilledCBtn} from "../../../shared/buttons/api";
 import styles from './styles/contactUs.module.scss';
 import {CallUsList} from "@shared/lists/api";
 
-const ContactUs = ({pt}) => {
+const ContactUs = ({className}) => {
     const isMobileSize = useMediaQuery('(max-width: 600px)');
 
     return (
-        <section className={styles.section} style={{paddingTop: pt}}>
+        <section className={`${styles.section} ${className}`}>
             <ClassicContainer>
                 <div className={'flex flex-col gap-12 items-start'}>
                     <div>

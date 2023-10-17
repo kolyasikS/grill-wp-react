@@ -3246,6 +3246,31 @@
   padding: 200px 0 150px;
   z-index: 1;
 }
+
+@media screen and (max-width: 900px) {
+  .introduction-module--aGz2Z::before {
+    background: url(images/order-bg-mob.fae0a22d.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center 100px;
+  }
+  .introduction-module--R2tIv {
+    font-size: 32px;
+    padding: 200px 0 270px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .introduction-module--R2tIv {
+    font-size: 32px;
+    padding: 200px 0 150px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .introduction-module--R2tIv {
+    font-size: 32px;
+    padding: 200px 0 65px;
+  }
+}
 /*!****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/order/styles/form.module.scss ***!
   \****************************************************************************************************************************************************************************************************************************************************************/
@@ -3267,6 +3292,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .form-module--btaEr {
@@ -3289,6 +3315,27 @@
 .form-module--ERZo9 {
   width: 100%;
   max-width: 800px;
+}
+
+.form-module--vhik4 {
+  display: flex;
+  gap: 48px;
+  width: 100%;
+}
+
+.form-module--uVll8 {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-bottom: 112px;
+}
+
+.form-module--Vz8QJ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  margin-bottom: 56px;
 }
 
 .form-module--mJ3UI {
@@ -3408,6 +3455,56 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 900px) {
+  .form-module--btaEr {
+    font-size: 32px;
+  }
+  .form-module--fcVSj {
+    font-size: 16px;
+  }
+  .form-module--Ne29U {
+    font-size: 16px;
+  }
+  .form-module--fOSLs {
+    font-size: 16px;
+  }
+  .form-module--GD0QQ {
+    font-size: 20px;
+  }
+  .form-module--vhik4 {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .form-module--uVll8 {
+    margin-bottom: 32px;
+    gap: 24px;
+  }
+  .form-module--Vz8QJ {
+    gap: 24px;
+  }
+  .form-module--tX5in {
+    padding: 24px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .form-module--_TwKP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .form-module--mJ3UI {
+    padding: 24px 16px;
+  }
+  .form-module--mXVHN {
+    top: 56px;
+  }
+}
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/order/styles/divider.module.scss ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
@@ -3461,6 +3558,18 @@
   line-height: 110%;
   line-height: 120%;
   margin: 0 32px;
+}
+
+@media screen and (max-width: 900px) {
+  .divider-module--U8CbO {
+    font-size: 20px;
+  }
+  .divider-module--_OP4w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 56px 0 24px;
+  }
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/order/styles/uploadedFile.module.scss ***!
@@ -3552,21 +3661,48 @@
 .uploadedFile-module--SfX6R::before {
   transform: rotate(-45deg);
 }
+
+@media screen and (max-width: 900px) {
+  .uploadedFile-module--Zw7gg p {
+    font-size: 12px;
+  }
+  .uploadedFile-module--ouSp0 {
+    max-width: 64px;
+    height: 64px;
+  }
+}
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/pages/order/styles/contact-us-section.module.scss ***!
   \******************************************************************************************************************************************************************************************************************************************************************************/
-.contact-us-section-module--JDF7T {
+.contact-us-section-module--WVs4U {
   position: relative;
   top: -80px;
   margin-bottom: 200px;
 }
-.contact-us-section-module--JDF7T::before {
+.contact-us-section-module--WVs4U::before {
   content: "";
   background: #fff;
   position: absolute;
   width: 100%;
   height: 200px;
   bottom: -100px;
+}
+
+.contact-us-section-module--JDF7T {
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-us-section-module--WVs4U {
+    margin-bottom: 0;
+    top: 0px;
+  }
+  .contact-us-section-module--WVs4U::before {
+    display: none;
+  }
+  .contact-us-section-module--JDF7T {
+    padding-top: 64px;
+  }
 }
 /*!***************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./src/assets/fonts/stylesheet.css ***!
